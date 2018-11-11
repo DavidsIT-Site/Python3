@@ -48,16 +48,25 @@ def control_flow_main():
 
 
 def demo_multichoice(title):
-    #item 199
+    #item 596
     """ Popup a demo multichoice window """
-    #item 196
+    #item 593
     question = "This is your question"
-    #item 197
+    #item 594
     listOfOptions = ["option 1", "option 2", "option 3"]
-    #item 195
+    #item 592
     choice = eg.multchoicebox(question, title, listOfOptions)
-    #item 198
+    #item 595
     return(choice)
+
+
+def dialogs_main():
+    #item 614
+    demo_multichoice("Siji")
+    while_multichoice()
+    #item 626
+    print("DO WHILE DEMO")
+    do_while_loop()
 
 
 def dict_formatting():
@@ -119,21 +128,21 @@ def dict_main():
 
 
 def do_while_loop():
-    #item 270
+    #item 625
     """This is the demonstration of a do-while loop."""
     while True:
-        #item 264
+        #item 619
         
         ans = demo_multichoice("do while  loop demo")
         print(ans)
-        #item 265
+        #item 620
         if ans:
             pass
         else:
             break
-        #item 267
+        #item 622
         print("""This code path is being executed; it will loop again """)
-    #item 266
+    #item 621
     print("This code path is being executed, it will not loop again")
 
 
@@ -255,10 +264,7 @@ def loops_demo():
     foreach_loop(fruits)
     #item 294
     print("WHILE DEMO")
-    while_loop()
-    #item 295
-    print("DO WHILE DEMO")
-    do_while_loop()
+    #while_loop()
     #item 470
     print("_"*56)
 
@@ -272,7 +278,7 @@ def main():
     #item 546
     control_flow_main()
     #item 548
-    #loops_demo()
+    loops_demo()
     #item 547
     lists_main()
     #item 549
@@ -283,6 +289,8 @@ def main():
     dict_main()
     #item 585
     pattern_main()
+    #item 615
+    dialogs_main()
 
 
 def pattern1():
@@ -464,7 +472,9 @@ def tuples_main():
 
 def while_loop():
     #item 280
-    """This is the demonstration of a while loop."""
+    """This is the demonstration of a while loop.
+    Comment this out; it's infinite
+    """
     #item 274
     ans = 1
     while True:
@@ -475,9 +485,28 @@ def while_loop():
             break
         #item 277
         print("""This code path is being executed """)
-        ans = demo_multichoice("while loop demo")
+        ans = "while loop demo"
         print(ans)
     #item 276
+    print("This code path is being executed, it will not loop again")
+
+
+def while_multichoice():
+    #item 608
+    """This is the demonstration of a while loop."""
+    #item 602
+    ans = 1
+    while True:
+        #item 603
+        if ans:
+            pass
+        else:
+            break
+        #item 605
+        print("""This code path is being executed """)
+        ans = demo_multichoice("while loop demo")
+        print(ans)
+    #item 604
     print("This code path is being executed, it will not loop again")
 
 class MoneyWaster:

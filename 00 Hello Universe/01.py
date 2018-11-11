@@ -101,11 +101,25 @@ def list_methods():
     print("removing elements from list")
     people_list.remove('david')
     print(people_list)
+    #item 468
+    #now, I'm only in the list twice
+    
+    people_list.pop(4)
+    print(people_list)
+    #item 481
+    print("end of list methods")
+
+
+def list_slices():
+    #item 482
+    print("herro")
 
 
 def lists_main():
     #item 463
     list_methods()
+    #item 472
+    list_slices()
 
 
 def loops_demo():
@@ -125,6 +139,8 @@ def loops_demo():
     #item 295
     print("DO WHILE DEMO")
     do_while_loop()
+    #item 470
+    print("_"*56)
 
 
 def main():
@@ -134,6 +150,8 @@ def main():
     string_main()
     #item 417
     control_flow_main()
+    #item 469
+    #loops_demo()
     #item 464
     list_methods()
 

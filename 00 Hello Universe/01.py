@@ -293,6 +293,13 @@ def main():
     dialogs_main()
 
 
+def msqli_main():
+    #item 632
+    pass
+   # ""HALT""
+    #pick up here later
+
+
 def pattern1():
     #item 586
     print("Pattern1")

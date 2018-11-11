@@ -100,6 +100,27 @@ def if_statement():
         print("Going to jail")
 
 
+def list_comprehension2():
+    #item 540
+    
+    strs = ['hello','universe']
+    shout_strs = [pos.upper() + '!!!' for pos in strs]
+    print(shout_strs)
+    
+    print("conditional list comprehension")
+    nums = [2, 4, 188, 20, 5]
+    small_enough = [ n for n in nums if n <= 100 ]
+    print(small_enough)
+
+
+def list_comprehensions_squares(my_passed_list):
+    #item 532
+    """syntax: [ expr for var in list ] -- the for var in list """
+    #item 533
+    squares = [ number*number for number in my_passed_list ]
+    return squares
+
+
 def list_methods():
     #item 465
     """ Working with common list methods """
@@ -154,6 +175,13 @@ def lists_main():
     list_slices()
     #item 484
     print("_"*56)
+    #item 531
+    nums = [1,2,3,4]
+    print(list_comprehensions_squares(nums))
+    
+    list_comprehension2()
+    #item 534
+    print("_"*56)
 
 
 def loops_demo():
@@ -191,6 +219,8 @@ def main():
     lists_main()
     #item 491
     sorting_main()
+    #item 522
+    tuples_main()
 
 
 def select_flow(input_state):
@@ -227,6 +257,8 @@ def sorting_main():
     """The 'main' for running sorting demo"""
     #item 497
     basics_sort()
+    #item 528
+    print("_"*56)
 
 
 def string_basic_hello():
@@ -317,6 +349,30 @@ def string_pretty_print1():
     #item 445
     text =  "%d people are valid. Watch us, %s, try" % (0,"billions")
     #item 448
+    print("_"*56)
+
+
+def tuples_basics():
+    #item 520
+    """ tuples are n dimensional groups of elements, the size is immutable """
+    #item 521
+    print("tuples can be accessed just like a list")
+    my_tuple = (1,2,'hello','David')
+    print(my_tuple)
+    print(my_tuple[1])
+    print("Single elements inside tuples can not be updated; the entire block needs to be re-assigned")
+    my_tuple = (1,2,'hello','MartinMaker')
+    print(my_tuple)
+    #item 530
+    #Easy assigning var names with tuples
+    (choice1, choice2, chosen_greeting, player_name) = (1,2,'hello','MartinMaker')
+    print(chosen_greeting)
+
+
+def tuples_main():
+    #item 519
+    tuples_basics()
+    #item 529
     print("_"*56)
 
 

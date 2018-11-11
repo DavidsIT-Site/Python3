@@ -78,7 +78,7 @@ def dict_formatting():
     
     print(s_person)
     print(person)
-    prnt("removing items from dictionaries is the same as lists")
+    print("removing items from dictionaries is the same as lists")
     del person['number']
     print(person)
 
@@ -281,6 +281,32 @@ def main():
     tuples_main()
     #item 561
     dict_main()
+    #item 585
+    pattern_main()
+
+
+def pattern1():
+    #item 586
+    print("Pattern1")
+    from pampy import match, HEAD, TAIL, _
+    
+    x = [1, 2, 3]
+    
+    match(x, [1, TAIL],     lambda t: t)            # => [2, 3]
+    
+    print(match(x, [HEAD, TAIL],  lambda h, t: (h, t)))    # => (1, [2, 3])
+    #item 587
+    input = x
+    pattern = [1,2,_]
+    action = lambda x:	print("it's {}".format(x))
+    match(input,pattern,action)
+
+
+def pattern_main():
+    #item 588
+    """https://github.com/santinic/pampy"""
+    #item 584
+    pattern1()
 
 
 def select_flow(input_state):

@@ -60,6 +60,26 @@ def demo_multichoice(title):
     return(choice)
 
 
+def dict_hash_table():
+    #item 563
+    print("dicts are hash table structures key:value")
+    dict = {}
+    dict['a'] = 'alpha'
+    dict['g'] = 'gamma'
+    dict['o'] = 'omega'
+    print(dict)
+    print(dict['a'])
+    print("""print(dict['z']) ERROR""")
+    if 'z' in dict: print(dict['z']  )
+    print( dict.get('a'))
+    print( dict.get('z'))
+
+
+def dict_main():
+    #item 562
+    dict_hash_table()
+
+
 def do_while_loop():
     #item 270
     """This is the demonstration of a do-while loop."""
@@ -206,21 +226,23 @@ def loops_demo():
 
 
 def main():
-    #item 103
+    #item 544
     """ This is the main, edits here change what runs """
     #getting started http://drakon-editor.sourceforge.net/python/python.html#classes
-    #item 141
+    #item 545
     string_main()
-    #item 417
+    #item 546
     control_flow_main()
-    #item 469
+    #item 548
     #loops_demo()
-    #item 464
+    #item 547
     lists_main()
-    #item 491
+    #item 549
     sorting_main()
-    #item 522
+    #item 550
     tuples_main()
+    #item 561
+    dict_main()
 
 
 def select_flow(input_state):

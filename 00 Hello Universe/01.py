@@ -21,6 +21,7 @@ def basics_sort():
     print(sorted(strs, key=len))
     #item 509
     print("To pass a custom function in, create the function. and pass it in")
+    print("sort_function1 returns the last value in a string")
     strs = ['xc', 'zb', 'yd' ,'wa']
     print(sorted(strs, key=sort_function1)) ## ['wa', 'zb', 'xc', 'yd']
 
@@ -179,6 +180,7 @@ def loops_demo():
 def main():
     #item 103
     """ This is the main, edits here change what runs """
+    #getting started http://drakon-editor.sourceforge.net/python/python.html#classes
     #item 141
     string_main()
     #item 417

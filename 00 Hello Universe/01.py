@@ -60,6 +60,29 @@ def demo_multichoice(title):
     return(choice)
 
 
+def dict_formatting():
+    #item 570
+    print("dict formatting")
+    person = {}
+    person['name'] = 'David'
+    person['age'] = ' old enough'
+    person['sex'] = 'yes'
+    person['number'] = 42
+    
+    s_person = ("""
+    This person is: %(name)s 
+    	is: %(age)s
+    	Sex: %(sex)s
+    	number: %(number)d""" 
+    % person)
+    
+    print(s_person)
+    print(person)
+    prnt("removing items from dictionaries is the same as lists")
+    del person['number']
+    print(person)
+
+
 def dict_hash_table():
     #item 563
     print("dicts are hash table structures key:value")
@@ -73,11 +96,26 @@ def dict_hash_table():
     if 'z' in dict: print(dict['z']  )
     print( dict.get('a'))
     print( dict.get('z'))
+    
+    for k in dict.items():
+    	print(k)
+    
+    for key, value in dict.items():
+    	print(key +': ' +value)
+    for key in dict:
+        #item 566
+        print(key)
 
 
 def dict_main():
+    #item 572
+    print("_"*56)
     #item 562
     dict_hash_table()
+    #item 573
+    print("_"*56)
+    #item 571
+    dict_formatting()
 
 
 def do_while_loop():

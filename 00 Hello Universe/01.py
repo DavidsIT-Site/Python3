@@ -107,17 +107,19 @@ def list_methods():
     people_list.pop(4)
     print(people_list)
     #item 481
-    print("end of list methods")
+    print("end of list methods; swear this is running")
 
 
 def list_slices():
     #item 482
-    print("herro")
+    print("herro reddit")
 
 
 def lists_main():
     #item 463
     list_methods()
+    #item 483
+    print("I Should learn to use the debugger now")
     #item 472
     list_slices()
 
@@ -153,7 +155,7 @@ def main():
     #item 469
     #loops_demo()
     #item 464
-    list_methods()
+    lists_main()
 
 
 def select_flow(input_state):

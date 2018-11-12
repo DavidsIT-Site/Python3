@@ -44,8 +44,16 @@ def customer_class_main():
     #item 302
     cust1 = customer("Poor_David")
     cust2 = customer("Rich_David",100)
+    #item 676
+    print(cust1)
+    #item 675
+    cust2.send_funds(cust1,10)
     #item 656
     print(cust1)
+    #item 689
+    cust1.withdrawal(5)
+    cust1.withdrawal(5)
+    cust1.withdrawal(5)
 
 
 def demo_multichoice(title):
@@ -555,6 +563,19 @@ class customer:
         return("%s has balance: %d" % (self.name, self.balance))
 
 
+    def send_funds(self, send_to, amount_to_send):
+        #item 670
+        if amount_to_send > self.balance:
+            #item 674
+            print("too poor")
+            #custom error not enough money
+        else:
+            #item 673
+            self.balance = self.balance - amount_to_send
+            send_to.balance = send_to.balance + amount_to_send
+            print("Succesfully sent")
+
+
     def set_account_balance(self, account_balance):
         #item 213
         self.account_worth = account_balance
@@ -563,5 +584,17 @@ class customer:
     def set_name(self, name):
         #item 207
         self.name = name
+
+
+    def withdrawal(self, amount_withdrawal):
+        #item 684
+        if amount_withdrawal > self.balance:
+            #item 688
+            print("too poor")
+            #custom error not enough money
+        else:
+            #item 687
+            self.balance = self.balance - amount_withdrawal
+            print("Succesful withdrawl")
 
 main()

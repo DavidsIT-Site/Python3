@@ -26,13 +26,6 @@ def basics_sort():
     print(sorted(strs, key=sort_function1)) ## ['wa', 'zb', 'xc', 'yd']
 
 
-def class_ex_main():
-    #item 302
-    mw1 = MoneyWaster()
-    mw1.set_account(10)
-    mw1.spend(100)
-
-
 def control_flow_main():
     #item 346
     """ demonstration of control flows in drakon """
@@ -45,6 +38,14 @@ def control_flow_main():
     select_flow("3")
     #item 450
     print("_"*56)
+
+
+def customer_class_main():
+    #item 302
+    cust1 = customer("Poor_David")
+    cust2 = customer("Rich_David",100)
+    #item 656
+    print(cust1)
 
 
 def demo_multichoice(title):
@@ -125,6 +126,8 @@ def dict_main():
     print("_"*56)
     #item 571
     dict_formatting()
+    #item 657
+    print("_"*56)
 
 
 def do_while_loop():
@@ -291,6 +294,8 @@ def main():
     pattern_main()
     #item 615
     #dialogs_main()
+    #item 655
+    customer_class_main()
 
 
 def msqli_main():
@@ -340,6 +345,8 @@ def pattern_main():
     #item 584
     pattern1()
     pattern2()
+    #item 658
+    print("_"*56)
 
 
 def select_flow(input_state):
@@ -534,29 +541,27 @@ def while_multichoice():
     #item 604
     print("This code path is being executed, it will not loop again")
 
-class MoneyWaster:
+class customer:
 
 
-    def set_account(self, value):
+    def __init__(self, name, balance=0):
+        #item 653
+        self.name = name
+        self.balance = balance
+
+
+    def __repr__(self):
+        #item 664
+        return("%s has balance: %d" % (self.name, self.balance))
+
+
+    def set_account_balance(self, account_balance):
         #item 213
-        self.account_worth = value
+        self.account_worth = account_balance
 
 
     def set_name(self, name):
         #item 207
         self.name = name
-
-
-    def spend(self, value):
-        #item 220
-        print("pre spend")
-        print(value)
-        print(self.account_worth)
-        #item 219
-        self.account_worth = self.account_worth - value
-        #item 221
-        print("post spend")
-        print(value)
-        print(self.account_worth)
 
 main()

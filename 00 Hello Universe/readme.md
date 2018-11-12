@@ -48,3 +48,5 @@ This project is licensed
 
 * Hat tip to anyone who uses this
 * Stepan Mitkin, Alexander Ilyin, Maas-Maarten Zeeman, Vasil Dyadov, Vasili Bachiashvili.
+
+![visual_python_code.PNG](https://github.com/DavidsIT-Site/Python3/blob/master/00%20Hello%20Universe/visual_python_code.PNG)

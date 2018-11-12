@@ -1,7 +1,7 @@
 # Project Title
 
 Visual Python with DRAKON charts; extremely simple and straightforward.
-![](foreach_ex.png)
+![foreach_ex.png](foreach_ex.png)
 
 ## Getting Started
 

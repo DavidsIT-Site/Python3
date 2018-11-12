@@ -8,7 +8,7 @@ Visual Python with DRAKON charts; extremely simple and straightforward.
 These instructions will get your copy of the project up and running on your local machine for development or testing purposes.
 
 
-### Prerequisites
+### Prerequisites Installing
 
 
 http://drakon-editor.sourceforge.net/
@@ -22,7 +22,6 @@ tcllib
 libsqlite3-tcl
 libtk-img
 
-### Installing
 On Ubuntu:
 sudo apt-get install tcl8.6 tk8.6 tcllib libsqlite3-tcl libtk-img
 

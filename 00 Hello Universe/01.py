@@ -56,9 +56,19 @@ def control_flow_main():
 def customer_class_main():
     cust1 = customer("Poor_David")
     cust2 = customer("Rich_David",100)
+<<<<<<< HEAD
     print(cust1)
     cust2.send_funds(cust1,10)
     print(cust1)
+=======
+    #item 676
+    print(cust1)
+    #item 675
+    cust2.send_funds(cust1,10)
+    #item 656
+    print(cust1)
+    #item 689
+>>>>>>> b7381a9629cb74bb8651ce1174ed2a6d2a354779
     cust1.withdrawal(5)
     cust1.withdrawal(5)
     cust1.withdrawal(5)
@@ -454,10 +464,20 @@ class customer:
 
 
     def send_funds(self, send_to, amount_to_send):
+<<<<<<< HEAD
         if amount_to_send > self.balance:
             print("too poor")
             #custom error not enough money
         else:
+=======
+        #item 670
+        if amount_to_send > self.balance:
+            #item 674
+            print("too poor")
+            #custom error not enough money
+        else:
+            #item 673
+>>>>>>> b7381a9629cb74bb8651ce1174ed2a6d2a354779
             self.balance = self.balance - amount_to_send
             send_to.balance = send_to.balance + amount_to_send
             print("Succesfully sent")
@@ -472,10 +492,20 @@ class customer:
 
 
     def withdrawal(self, amount_withdrawal):
+<<<<<<< HEAD
         if amount_withdrawal > self.balance:
             print("too poor; no withdrawal")
             #custom error not enough money
         else:
+=======
+        #item 684
+        if amount_withdrawal > self.balance:
+            #item 688
+            print("too poor")
+            #custom error not enough money
+        else:
+            #item 687
+>>>>>>> b7381a9629cb74bb8651ce1174ed2a6d2a354779
             self.balance = self.balance - amount_withdrawal
             print("Succesful withdrawl")
 

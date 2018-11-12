@@ -21,10 +21,9 @@ tk8.6
 tcllib
 libsqlite3-tcl
 libtk-img
-On Ubuntu:
 
 ### Installing
-
+On Ubuntu:
 sudo apt-get install tcl8.6 tk8.6 tcllib libsqlite3-tcl libtk-img
 
 

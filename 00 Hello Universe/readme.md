@@ -12,7 +12,10 @@ These instructions will get your copy of the project up and running on your loca
 
 
 http://drakon-editor.sourceforge.net/
-Python & editor of your choice (I'm currently using pycharm & anaconda (with spyder))
+
+Python
+
+& editor of your choice (I'm currently using pycharm & anaconda (with spyder))
 
 Windows and Mac users can download Active Tcl here: http://www.activestate.com/activetcl/downloads
 Linux users need to install the following packages:

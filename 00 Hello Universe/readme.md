@@ -31,8 +31,11 @@ sudo apt-get install tcl8.6 tk8.6 tcllib libsqlite3-tcl libtk-img
 
 
 Open the .drn file with Drakon
+
 Drakon - Generate Code
+
 Open generated code in editor
+
 Run code
 
 

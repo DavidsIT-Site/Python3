@@ -278,7 +278,7 @@ def main():
     #item 546
     control_flow_main()
     #item 548
-    loops_demo()
+    #loops_demo()
     #item 547
     lists_main()
     #item 549
@@ -290,13 +290,12 @@ def main():
     #item 585
     pattern_main()
     #item 615
-    dialogs_main()
+    #dialogs_main()
 
 
 def msqli_main():
     #item 632
-    pass
-   # ""HALT""
+    print("HALT")
     #pick up here later
 
 
@@ -317,11 +316,30 @@ def pattern1():
     match(input,pattern,action)
 
 
+def pattern2():
+    #item 638
+    """ searching thru text for a particular pattern with regex: phone number example """
+    #item 640
+    text = """My number is (706)-452-3484; text anytime;
+    this ad will go away when the offer has been filled;
+    I have another number, in a different format: (678)-369 6707\n"""
+    
+    print(text)
+    import re
+    
+    #'\\d\\d\\d-\\d\\d\\d-\\d\\d\\d\\d'  if not raw string escape char
+    phone_num_regex = re.compile(r'\+?1?\s*\(?-*\.*(\d{3})\)?\.*-*\s*(\d{3})\.*-*\s*(\d{4})$')
+    matched_objects = phone_num_regex.search(text)
+    #item 641
+    print(matched_objects.group())
+
+
 def pattern_main():
     #item 588
     """https://github.com/santinic/pampy"""
     #item 584
     pattern1()
+    pattern2()
 
 
 def select_flow(input_state):

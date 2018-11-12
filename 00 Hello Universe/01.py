@@ -322,7 +322,7 @@ def pattern2():
     #item 640
     text = """My number is (706)-452-3484; text anytime;
     this ad will go away when the offer has been filled;
-    I have another number, in a different format: (678)-369 6707\n"""
+    I have another number, in a slightly different format: (678)-369 6707\n"""
     
     print(text)
     import re

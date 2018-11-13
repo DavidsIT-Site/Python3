@@ -266,7 +266,8 @@ def msqli_main():
     print("entering sql")
     mysql_create_drop_table()
     mysql_create_insert()
-    mysql_read()
+    mysql_read_update()
+    mysql_transactions()
 
 
 def mysql_create_drop_table():
@@ -330,7 +331,7 @@ def mysql_create_insert():
     dbd.close()
 
 
-def mysql_read():
+def mysql_read_update():
     import sqlite3
     dbd = sqlite3.connect('mydb2')
     cursor = dbd.cursor()
@@ -340,8 +341,39 @@ def mysql_read():
     for row in cursor:
         # row[0] returns the first column in the query (name), row[1] returns email column.
         print('{0} - {3} : {1}, {2}'.format(row[0], row[1], row[2],row[3]))
+    print("_"*56)
+    newphone = '6783696707'
+    user_id = 1
+    print("Updating user phone")
+    cursor.execute('''UPDATE users SET phone = ? WHERE id = ? ''',
+     (newphone, user_id))
+     
+    
+    
+    cursor.execute('''SELECT name, email, phone FROM users WHERE id=?''', (user_id,))
+    user = cursor.fetchone()
+    print(user)
+    print("_"*56)
+    
+    # Delete user with id 1
+    delete_userid = 1
+    print("Deleting User\nStill in DB:")
+    cursor.execute('''DELETE FROM users WHERE id = ? ''', (delete_userid,))
+     
+    
+    cursor.execute('''SELECT name, email, phone, password FROM users''')
+    for row in cursor:
+        # row[0] returns the first column in the query (name), row[1] returns email column.
+        print('{0} - {3} : {1}, {2}'.format(row[0], row[1], row[2],row[3]))
+    
+    
+    dbd.commit()
     
     dbd.close()
+
+
+def mysql_transactions():
+    print("pick up here")
 
 
 def pattern1():

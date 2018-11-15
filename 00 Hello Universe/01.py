@@ -259,7 +259,8 @@ def loops_demo():
 def main():
     _item_remove()
     #introduction_main()
-    msqli_main()
+    #msqli_main()
+    msqli_swcarpentry()
 
 
 def msqli_main():
@@ -268,6 +269,15 @@ def msqli_main():
     mysql_create_insert()
     mysql_read_update()
     mysql_transactions()
+
+
+def msqli_swcarpentry():
+    mysql_swc_01_select_intro()
+    mysql_swc_01_select_question()
+    
+    
+    mysql_swc_02_sorting_duplicates()
+    mysql_swc_02_sorting_duplicates_question()
 
 
 def mysql_create_drop_table():
@@ -370,6 +380,115 @@ def mysql_read_update():
     dbd.commit()
     
     dbd.close()
+
+
+def mysql_swc_01_select_intro():
+    """https://swcarpentry.github.io/sql-novice-survey/01-select/index.html
+    How can I get data from a database?
+    
+    """
+    import sqlite3
+    
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    cursor = db.cursor()
+    print("SELECT family, personal FROM person;")
+    cursor.execute('''SELECT family, personal FROM person;''')
+    for row in cursor:
+        # row[0] returns the first column in the query (family), row[1] returns Person column.
+        print('{0} - {1}'.format(row[0], row[1]))
+    print("\nCaps does not matter")
+    print("SeLeCt FaMiLy, PeRsOnAl FrOm PeRsOn;\n")
+    
+    cursor.execute('''SeLeCt FaMiLy, PeRsOnAl FrOm PeRsOn;''')
+    for row in cursor:
+        print('{1} - {0}'.format(row[0], row[1]))
+    print("\nRepeat Columns")
+    print("SELECT id, id, id FROM Person;\n")
+    
+    cursor.execute('''SELECT id, id, id FROM Person;''')
+    for row in cursor:
+        print('{0} - {1} - {2}'.format(row[0], row[1], row[2]))
+    print("\n Selecting all data")
+    print("SELECT * FROM Person;\n")
+    
+    cursor.execute('''SELECT * FROM Person;''')
+    for row in cursor:
+        print('{0} - {1} - {2}'.format(row[0], row[1], row[2]))
+    db.close()
+
+
+def mysql_swc_01_select_question():
+    """Write a query that selects only the name column from the Site table.
+    """
+    import sqlite3
+    
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    cursor = db.cursor()
+    print("SELECT name FROM site;")
+    cursor.execute('''SELECT name FROM site;''')
+    for row in cursor:
+        print('{0}'.format(row[0]))
+    db.close()
+
+
+def mysql_swc_02_sorting_duplicates():
+    """How can I sort a query’s results?
+    
+    How can I remove duplicate values from a query’s results?"""
+    import sqlite3
+    
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    cursor = db.cursor()
+    print("SELECT quant FROM survey;")
+    cursor.execute('''SELECT quant FROM survey;''')
+    for row in cursor:
+        print('{0}'.format(row[0]))
+    print("SELECT DISTINCT quant FROM survey;")
+    cursor.execute('''SELECT DISTINCT quant FROM survey;''')
+    for row in cursor:
+        print('{0}'.format(row[0]))
+    
+    print("SELECT taken, quant FROM survey;")
+    cursor.execute('''SELECT taken, quant FROM survey;''')
+    for row in cursor:
+        print('{0} - {1} '.format(row[0], row[1]))
+    
+    print("SELECT DISTINCT taken, quant FROM survey;")
+    cursor.execute('''SELECT DISTINCT  taken, quant FROM survey;''')
+    for row in cursor:
+        print('{0} - {1} '.format(row[0], row[1]))
+    
+    
+    
+    print("SELECT * FROM Person ORDER BY id;")
+    cursor.execute('''SELECT * FROM Person ORDER BY id;''')
+    for row in cursor:
+        print('{0} - {1} '.format(row[0], row[2]))
+    
+    
+    
+    print("SELECT * FROM Person ORDER BY id DESC;")
+    cursor.execute('''SELECT * FROM Person ORDER BY id DESC;''')
+    for row in cursor:
+        print('{0} - {1} '.format(row[0], row[2]))
+    
+    
+    
+    print(" this query sorts results first in ascending order by taken, and then in descending order by person within each group of equal taken values")
+    cursor.execute('''SELECT taken, person, quant FROM Survey ORDER BY taken ASC, person DESC;''')
+    for row in cursor:
+        print('{0} - {1} - {2} '.format(row[0], row[1], row[2]))
+    db.close()
+
+
+def mysql_swc_02_sorting_duplicates_question():
+    """Write a query that selects only the name column from the Site table.
+    """
+    import sqlite3
+    
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    cursor = db.cursor()
+    db.close()
 
 
 def mysql_transactions():

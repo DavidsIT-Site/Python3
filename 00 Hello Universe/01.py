@@ -482,12 +482,18 @@ def mysql_swc_02_sorting_duplicates():
 
 
 def mysql_swc_02_sorting_duplicates_question():
-    """Write a query that selects only the name column from the Site table.
-    """
+    """Write a query that selects distinct dates from the Visited table."""
     import sqlite3
     
     db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
     cursor = db.cursor()
+    
+    
+    
+    print("Write a query that prints distinct dates from the Visited table.")
+    cursor.execute('''SELECT DISTINCT dated FROM Visited''')
+    for row in cursor:
+        print('{0} '.format(row[0]))
     db.close()
 
 

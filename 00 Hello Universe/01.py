@@ -508,39 +508,24 @@ def mysql_swc_02_sorting_duplicates_question():
 def mysql_swc_03_filtering():
     """select records from the Visited table by using a WHERE clause in our query"""
     import sqlite3
-    
     db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
-    
-    me = db.cursor()
-    me.execute('''SELECT * FROM Visited WHERE site ='DR-1';''')
-    for row in me:
+    my_cursor = db.cursor()
+    my_cursor.execute('''SELECT * FROM Visited WHERE site ='DR-1';''')
+    for row in my_cursor:
         print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
-    db.close()
-    import sqlite3
-    
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
-    
-    cursor = db.cursor()
-    cursor.execute('''SELECT * FROM Visited WHERE site = 'DR-1' AND dated < '1930-01-01';''')
-    for row in cursor:
+    my_cursor.execute('''SELECT * FROM Visited WHERE site = 'DR-1' AND dated < '1930-01-01';''')
+    for row in my_cursor:
         print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
-    db.close()
-    import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
-    
-    cursor = db.cursor()
-    cursor.execute('''SELECT * FROM Survey WHERE quant = 'sal' AND (person = 'lake' OR person = 'roe');''')
-    for row in cursor:
+    my_cursor.execute('''SELECT * FROM Survey WHERE quant = 'sal' AND (person = 'lake' OR person = 'roe');''')
+    for row in my_cursor:
         print('{0} - {1} - {2} - {3} '.format(row[0],row[1],row[2],row[3]))
-    db.close()
-    import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
-    
-    cursor = db.cursor()
-    cursor.execute('''SELECT * FROM Site WHERE (lat > 42) OR (lat < -42);''')
-    for row in cursor:
+    my_cursor.execute('''SELECT * FROM Site WHERE (lat > 42) OR (lat < -42);''')
+    for row in my_cursor:
+        print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
+    my_cursor.execute('''SELECT * FROM Survey WHERE quant = 'sal' AND ((reading>1.0) OR (reading<0));''')
+    for row in my_cursor:
         print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
     db.close()
 

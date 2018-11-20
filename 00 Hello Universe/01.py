@@ -283,6 +283,7 @@ def msqli_swcarpentry():
     
     mysql_swc_04_calc()
     mysql_swc_05_null()
+    mysql_swc_06_aggregation()
 
 
 def mysql_create_drop_table():
@@ -611,6 +612,73 @@ def mysql_swc_05_null():
     my_cursor.execute('''SELECT * FROM Visited WHERE dated IS NOT NULL ORDER BY dated ASC; ''')
     for row in my_cursor:
     	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    db.close()
+
+
+def mysql_swc_06_aggregation():
+    """calculate more complex things in sql"""
+    import sqlite3
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db.row_factory = sqlite3.Row
+    my_cursor = db.cursor()
+    print("_"*56)
+    my_cursor.execute('''Select dated FROM Visited; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    print("_"*56)
+    my_cursor.execute('''Select min(dated) FROM Visited; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    my_cursor.execute('''Select max(dated) FROM Visited; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    my_cursor.execute('''Select avg(reading) FROM Survey; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    my_cursor.execute('''Select avg(reading) FROM Survey WHERE quant = 'sal'; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    my_cursor.execute('''Select count(reading) FROM Survey WHERE quant = 'sal'; ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    my_cursor.execute('''SELECT person FROM Survey WHERE quant = 'sal' AND reading <= 1.0;
+    ''')
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
+    print("_"*56)
+    dbq = '''
+    SELECT   person, round(avg(reading) - min(reading),2)
+    FROM     Survey
+    WHERE    quant = 'rad'
+    GROUP BY person;
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} ".format(row[0],row[1]))
+    dbq = '''
+    SELECT   person, quant, count(reading), round(avg(reading), 2)
+    FROM     Survey
+    GROUP BY person, quant;
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2} - {3}".format(row[0],row[1], row[2],row[3]))
+    dbq = '''
+    SELECT   person, quant, count(reading), round(avg(reading),2)
+    FROM     Survey
+    WHERE    person IS NOT NULL
+    GROUP BY person, quant
+    ORDER BY person, quant;
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2} - {3}".format(row['person'],row['quant'], row['count(reading)'],row['round(avg(reading),2)']))
+    dbq = '''
+    SELECT reading - avg(reading) FROM Survey WHERE quant = 'rad';
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} ".format(row[0]))
     db.close()
 
 

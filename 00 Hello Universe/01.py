@@ -284,6 +284,7 @@ def msqli_swcarpentry():
     mysql_swc_04_calc()
     mysql_swc_05_null()
     mysql_swc_06_aggregation()
+    mysql_swc_07_join()
 
 
 def mysql_create_drop_table():
@@ -679,6 +680,64 @@ def mysql_swc_06_aggregation():
     my_cursor.execute(dbq)
     for row in my_cursor:
     	print("{0} ".format(row[0]))
+    db.close()
+
+
+def mysql_swc_07_join():
+    """Aggregate data from multiple tables"""
+    import sqlite3
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db.row_factory = sqlite3.Row
+    my_cursor = db.cursor()
+    print("_"*56)
+    dbq = '''
+    SELECT	*
+    FROM	Site JOIN	Visited
+    ON	Site.name = Visited.site
+    
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2} - {3} - {4} - {5} ".format(row[0],row[1],row[2],row[3],row[4],row[5]))
+    print("_"*56)
+    dbq = '''
+    SELECT	null,Site.lat, Site.long, Visited.dated, Survey.quant, Survey.reading
+    FROM	Site
+    JOIN	Visited
+    JOIN	Survey
+    ON	Site.name = Visited.site
+    AND	Visited.id=Survey.taken
+    AND Visited.dated IS NOT NULL
+    
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2} - {3} - {4} - {5} ".format(row['lat'],row[1],row[2],row[3],row[4],row[5]))
+    print("_"*56)
+    dbq = '''
+    SELECT	DISTINCT	Site.name, Person.id , Visited.site
+    FROM	Site
+    JOIN	Visited
+    JOIN	Survey
+    JOIN	Person
+    ON Site.name = Visited.site
+    
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    dbq = '''
+    SELECT	Visited.id, Visited.site, Visited.dated, Survey.taken, Survey.quant, Survey.reading, Survey.person
+    FROM	Visited
+    JOIN	Survey
+    
+    ON Visited.id = Survey.taken
+    WHERE Survey.quant = 'rad';
+    '''
+    my_cursor.execute(dbq)
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row['quant'],row[1],row[2]))
     db.close()
 
 

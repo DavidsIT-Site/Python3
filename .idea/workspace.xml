@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00 Hello Universe/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="755" column="24" lean-forward="true" selection-start-line="755" selection-start-column="24" selection-end-line="755" selection-end-column="24" />
+            <state relative-caret-position="262">
+              <caret line="835" column="23" selection-start-line="834" selection-start-column="13" selection-end-line="835" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -50,9 +50,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="852" />
-    <option name="height" value="1407" />
+    <option name="x" value="3338" />
+    <option name="y" value="-108" />
+    <option name="width" value="509" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -132,15 +133,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="852" height="1407" extended-state="0" />
+    <frame x="3338" y="-108" width="509" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1928747" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914376" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45892662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -160,8 +161,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/00 Hello Universe/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="755" column="24" lean-forward="true" selection-start-line="755" selection-start-column="24" selection-end-line="755" selection-end-column="24" />
+        <state relative-caret-position="262">
+          <caret line="835" column="23" selection-start-line="834" selection-start-column="13" selection-end-line="835" selection-end-column="23" />
         </state>
       </provider>
     </entry>

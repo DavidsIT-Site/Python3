@@ -280,6 +280,9 @@ def msqli_swcarpentry():
     mysql_swc_02_sorting_duplicates_question()
     
     mysql_swc_03_filtering()
+    
+    mysql_swc_04_calc()
+    mysql_swc_05_null()
 
 
 def mysql_create_drop_table():
@@ -527,6 +530,87 @@ def mysql_swc_03_filtering():
     my_cursor.execute('''SELECT * FROM Survey WHERE quant = 'sal' AND ((reading>1.0) OR (reading<0));''')
     for row in my_cursor:
         print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
+    db.close()
+
+
+def mysql_swc_04_calc():
+    """Calculate modified values when pulling from a database"""
+    import sqlite3
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db.row_factory = sqlite3.Row
+    my_cursor = db.cursor()
+    my_cursor.execute('''SELECT (1.05 * reading), taken, person FROM Survey WHERE quant ='rad' ;''')
+    for row in my_cursor:
+        print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
+    my_cursor.execute('''SELECT round((1.05 * reading),2), taken, person FROM Survey WHERE quant ='rad' ;''')
+    for row in my_cursor:
+        print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
+    my_cursor.execute('''SELECT round((1.05 * reading),2), taken, person FROM Survey WHERE quant ='rad' ;''')
+    for row in my_cursor:
+        print('{0} - {1} - {2} '.format(row[0],row[1],row[2]))
+    my_cursor.execute('''SELECT taken, round((1.05 * reading),2) AS new_reading, person || ' ' || quant AS personal_quant FROM Survey WHERE quant ='rad' ;''')
+    for row in my_cursor:
+        print('{0} - {1} - {2} '.format(row['new_reading'],row['taken'],row['personal_quant']))
+    
+    my_cursor.execute('''SELECT taken, round(reading / 100,3) AS new_reading FROM Survey WHERE person = 'roe' AND quant = 'sal';''')
+    for row in my_cursor:
+        print('{0} - {1}'.format(row['taken'],row['new_reading']))
+    
+    my_cursor.execute('''SELECT taken, round(reading / 100,3) AS new_reading FROM Survey WHERE person = 'roe' AND quant = 'sal';''')
+    for row in my_cursor:
+        print('{0} - {1}'.format(row['taken'],row['new_reading']))
+    
+    my_cursor.execute('''SELECT * FROM Person WHERE id = 'dyer' UNION SELECT * FROM Person WHERE id = 'roe'; ''')
+    for row in my_cursor:
+        print('{0} - {1}'.format(row[0],row[1]))
+    
+    my_cursor.execute('''SELECT * FROM Survey WHERE person = 'dyer' UNION SELECT * FROM Survey WHERE person = 'roe'; ''')
+    for row in my_cursor:
+        print('{0} - {1}'.format(row[0],row[1]))
+    
+    my_cursor.execute('''SELECT DISTINCT site from Visited''')
+    for row in my_cursor:
+        print('{0}'.format(row[0]))
+    
+    my_cursor.execute('''SELECT DISTINCT substr(site, 1, instr(site, '-') -1) AS MajorSite FROM Visited;''')
+    for row in my_cursor:
+        print('{0}'.format(row[0]))
+    db.close()
+
+
+def mysql_swc_05_null():
+    """Calculate modified values when pulling from a database"""
+    import sqlite3
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db.row_factory = sqlite3.Row
+    my_cursor = db.cursor()
+    my_cursor.execute('''Select * FROM Visited; ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''Select * FROM Visited WHERE dated < '1930-01-01' ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''Select * FROM Visited WHERE dated >= '1930-01-01' ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''SELECT * FROM Visited WHERE dated IS NULL; ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''SELECT * FROM Visited WHERE dated IS NOT NULL; ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''SELECT * FROM Survey WHERE quant = 'sal' AND person IS NULL; ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
+    print("_"*56)
+    my_cursor.execute('''SELECT * FROM Visited WHERE dated IS NOT NULL ORDER BY dated ASC; ''')
+    for row in my_cursor:
+    	print("{0} - {1} - {2}".format(row[0],row[1],row[2]))
     db.close()
 
 

@@ -396,7 +396,7 @@ def mysql_swc_01_select_intro():
     """
     import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     cursor = db.cursor()
     print("SELECT family, personal FROM person;")
     cursor.execute('''SELECT family, personal FROM person;''')
@@ -429,7 +429,7 @@ def mysql_swc_01_select_question():
     """
     import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     cursor = db.cursor()
     print("SELECT name FROM site;")
     cursor.execute('''SELECT name FROM site;''')
@@ -444,7 +444,7 @@ def mysql_swc_02_sorting_duplicates():
     How can I remove duplicate values from a query’s results?"""
     import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     cursor = db.cursor()
     print("SELECT quant FROM survey;")
     cursor.execute('''SELECT quant FROM survey;''')
@@ -492,7 +492,7 @@ def mysql_swc_02_sorting_duplicates_question():
     """Write a query that selects distinct dates from the Visited table."""
     import sqlite3
     
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     cursor = db.cursor()
     
     
@@ -513,7 +513,7 @@ def mysql_swc_02_sorting_duplicates_question():
 def mysql_swc_03_filtering():
     """select records from the Visited table by using a WHERE clause in our query"""
     import sqlite3
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     my_cursor = db.cursor()
     my_cursor.execute('''SELECT * FROM Visited WHERE site ='DR-1';''')
     for row in my_cursor:
@@ -538,7 +538,7 @@ def mysql_swc_03_filtering():
 def mysql_swc_04_calc():
     """Calculate modified values when pulling from a database"""
     import sqlite3
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     db.row_factory = sqlite3.Row
     my_cursor = db.cursor()
     my_cursor.execute('''SELECT (1.05 * reading), taken, person FROM Survey WHERE quant ='rad' ;''')
@@ -583,7 +583,7 @@ def mysql_swc_04_calc():
 def mysql_swc_05_null():
     """Calculate modified values when pulling from a database"""
     import sqlite3
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     db.row_factory = sqlite3.Row
     my_cursor = db.cursor()
     my_cursor.execute('''Select * FROM Visited; ''')
@@ -619,7 +619,7 @@ def mysql_swc_05_null():
 def mysql_swc_06_aggregation():
     """calculate more complex things in sql"""
     import sqlite3
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     db.row_factory = sqlite3.Row
     my_cursor = db.cursor()
     print("_"*56)
@@ -686,7 +686,7 @@ def mysql_swc_06_aggregation():
 def mysql_swc_07_join():
     """Aggregate data from multiple tables"""
     import sqlite3
-    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Drakon/Python3/00 Hello Universe/data/survey.db""")
+    db = sqlite3.connect( """C:/Users/David/OneDrive - DavidIT.Site/GITHUB/Python3/00 Hello Universe/data/survey.db""")
     db.row_factory = sqlite3.Row
     my_cursor = db.cursor()
     print("_"*56)

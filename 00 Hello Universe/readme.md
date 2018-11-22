@@ -3,6 +3,9 @@
 Visual Python with DRAKON charts; extremely simple and straightforward.
 ![foreach_ex.png](https://github.com/DavidsIT-Site/Python3/blob/master/00%20Hello%20Universe/foreach_ex.PNG)
 
+## Why?
+To push python understanding into the visual domain.
+
 ## Getting Started
 
 These instructions will get your copy of the project up and running on your local machine for development or testing purposes.

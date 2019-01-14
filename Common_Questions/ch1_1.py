@@ -85,3 +85,30 @@ q.popleft()
 print(q)
 
 #page 7
+#1.4 List of the lasrgest or smallest items in a collection
+import heapq
+nums = [1, 2, 5, 6, 23, -4, 54, 2, 0]
+print(heapq.nsmallest(3, nums))
+print(heapq.nlargest(3, nums))
+
+#how to take a heap of data stuctures
+portfolio = [
+    {'name': 'IBM', 'shares': 100, 'price': 91.1},
+    {'nane': 'APPL', 'shares': 50, 'price': 543.22},
+    {'name': 'FB', 'shares': 200, 'price': 21},
+    {'name': 'HPQ', 'shares': 50, 'price': 32},
+    {'name': 'YHOO', 'shares': 23, 'price': 17}
+]
+inexpensive = heapq.nsmallest(3, portfolio, key=lambda s: s['price'])
+expensive = heapq.nlargest(3, portfolio, key=lambda s: s['price'])
+print(inexpensive)
+print(expensive)
+
+#heap works by converting data into a list  as an ordered heap
+
+print(nums)
+heap = list(nums)
+heapq.heapify(heap)
+print(heap)
+print(heapq.heappop(heap))
+print(heap)

@@ -15,3 +15,12 @@ for date, items in groupby(rows, key=itemgetter('date')):
     print(date)
     for item in items:
         print('     ', item)
+
+
+from collections import defaultdict
+rows_by_date = defaultdict(list)
+for row in rows:
+    rows_by_date[row['date']].append(row)
+
+for row in rows_by_date['07/01/2012']:
+    print(row)

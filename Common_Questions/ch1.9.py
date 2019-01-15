@@ -13,9 +13,9 @@ print(a.keys() - b.keys())
 print(a.items() & b.items())
 print(a.items() - b.items())
 
-#page 16
+# page 16
 
-#remove doplicates
+# remove doplicates
 def dedupe(items):
     seen = set()
     for item in items:

@@ -1,4 +1,7 @@
 # matching and searching text patterns
+
+#do this but with only regex
+
 text = "yeah, but no, but yeah, but no, but yeah"
 
 text1 = "11/27/2017"
@@ -39,3 +42,6 @@ print(m.group(4))
 text = "Today is 11/27/2012. PyCon starts 3/13/2013"
 for m in datepat.finditer(text):
     print(m.groups())
+
+# essentially the functionality is first compiling a pattern using re.compile then using methods
+# match, findall, finditer

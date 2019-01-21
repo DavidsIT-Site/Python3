@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 2 Strings/ch2_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 2 Strings/ch2_14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch 2 Strings/ch2_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 2 Strings/ch2_5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_11.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_13.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -79,6 +96,9 @@
         <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_4.py" />
         <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_5.py" />
         <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_11.py" />
+        <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_13.py" />
+        <option value="$PROJECT_DIR$/Ch 2 Strings/# combine strings into larger string.py" />
+        <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_14.py" />
       </list>
     </option>
   </component>
@@ -132,28 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch2_11">
-    <configuration name="ch2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 2 Strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch2_14">
     <configuration name="ch2_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch2_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch2_13" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,7 +186,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_13.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch2_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 2 Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch2_14" />
+        <item itemvalue="Python.ch2_13" />
         <item itemvalue="Python.ch2_11" />
         <item itemvalue="Python.ch2_5" />
         <item itemvalue="Python.ch2_4" />
-        <item itemvalue="Python.ch2_2" />
-        <item itemvalue="Python.ch2_1" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547910430370</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="strip unwanted characters from strings">
+      <created>1548086741144</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1548086741144</updated>
+    </task>
+    <task id="LOCAL-00020" summary=" format text with alignment">
+      <created>1548090081923</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548090081923</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -427,7 +461,9 @@
     <MESSAGE value="splitting on multiple delimiters" />
     <MESSAGE value="matching text basics" />
     <MESSAGE value="Searching and replacing text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searching and replacing text" />
+    <MESSAGE value="strip unwanted characters from strings" />
+    <MESSAGE value=" format text with alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value=" format text with alignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,6 +538,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/# combine strings into larger string.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>

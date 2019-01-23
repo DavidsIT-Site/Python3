@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -27,16 +26,16 @@
         <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_16.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="59" lean-forward="true" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -44,8 +43,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state>
+              <caret column="20" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -96,6 +122,10 @@
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_2.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
       </list>
     </option>
   </component>
@@ -109,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,18 +154,13 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="00 Hello Universe" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 3 Numbers, dates, times" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
               <item name="Ch 2 Strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,70 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch3_3">
-    <configuration name="ch2_15" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 2 Strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch2_16" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 2 Strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 2 Strings/ch2_16.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch3_6">
     <configuration name="ch3_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,13 +227,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch3_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch3_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch3_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch3_6" />
+        <item itemvalue="Python.ch3_5" />
+        <item itemvalue="Python.ch3_4" />
         <item itemvalue="Python.ch3_3" />
         <item itemvalue="Python.ch3_2" />
-        <item itemvalue="Python.ch3_1" />
-        <item itemvalue="Python.ch2_16" />
-        <item itemvalue="Python.ch2_15" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548181275982</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="# formatting numbers for output">
+      <created>1548258749533</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548258749533</updated>
+    </task>
+    <task id="LOCAL-00028" summary=" binary, octal, and hexadecimal">
+      <created>1548260130996</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1548260130996</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -481,7 +519,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38697016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38697016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,7 +555,9 @@
     <MESSAGE value="interpolating variables in strings" />
     <MESSAGE value="reformatting text" />
     <MESSAGE value=" numbers, dates, and times" />
-    <option name="LAST_COMMIT_MESSAGE" value=" numbers, dates, and times" />
+    <MESSAGE value="# formatting numbers for output" />
+    <MESSAGE value=" binary, octal, and hexadecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value=" binary, octal, and hexadecimal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,9 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/# combine strings into larger string.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/# combine strings into larger string.py" />
     <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_13.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -619,31 +657,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="59" lean-forward="true" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3_6.py" />
     <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>

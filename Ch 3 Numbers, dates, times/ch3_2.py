@@ -1,5 +1,5 @@
 # decimal calculations
-a = 3.1
+a = 2.1
 b = 4.2
 print(a+b)
 

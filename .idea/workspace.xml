@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py" afterDir="false" />
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="def get_month_range(start_date=None):">
+      <change afterPath="$PROJECT_DIR$/Ch 4 iterators and generators/passwd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py">
+        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/passwd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -108,13 +90,19 @@
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py" />
+        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_14.py" />
+        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_15.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_2.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/passwd" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1_2.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
-    <option name="width" value="1394" />
-    <option name="height" value="2127" />
+    <option name="x" value="1162" />
+    <option name="width" value="1183" />
+    <option name="height" value="1320" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -132,7 +120,7 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 3 Numbers, dates, times" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch 4 iterators and generators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,49 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch3_13">
-    <configuration name="ch3_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch3_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch4_1">
     <configuration name="ch3_12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch3_9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch3_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,7 +207,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch4_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 4 iterators and generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch4_1_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 4 iterators and generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch4_1" />
+        <item itemvalue="Python.ch4_1_2" />
+        <item itemvalue="Python.ch3_14" />
         <item itemvalue="Python.ch3_13" />
         <item itemvalue="Python.ch3_12" />
-        <item itemvalue="Python.ch3_11" />
-        <item itemvalue="Python.ch3_10" />
-        <item itemvalue="Python.ch3_9" />
       </list>
     </recent_temporary>
   </component>
@@ -550,25 +538,39 @@
       <option name="project" value="LOCAL" />
       <updated>1548472617422</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="def get_prevous_byday(dayname,start_date=None):">
+      <created>1548477906629</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1548477906629</updated>
+    </task>
+    <task id="LOCAL-00039" summary="def get_month_range(start_date=None):">
+      <created>1548478238485</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1548478238485</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="0" width="1394" height="2127" extended-state="0" />
+    <frame x="1162" y="0" width="1183" height="1320" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117256634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19039302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49705014" visible="true" weight="0.24172518" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49606988" visible="true" weight="0.24094355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50294983" side_tool="true" visible="true" weight="0.24172518" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50393015" side_tool="true" visible="true" weight="0.24094355" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -577,8 +579,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dictionary subsets" />
-    <MESSAGE value="named sequences" />
     <MESSAGE value="transformations and reducers" />
     <MESSAGE value="multiple mappings" />
     <MESSAGE value="multidict" />
@@ -602,7 +602,9 @@
     <MESSAGE value="import random" />
     <MESSAGE value="converting time days to seconds" />
     <MESSAGE value="from datetime import timedelta&#10;from datetime import datetime" />
-    <option name="LAST_COMMIT_MESSAGE" value="from datetime import timedelta&#10;from datetime import datetime" />
+    <MESSAGE value="def get_prevous_byday(dayname,start_date=None):" />
+    <MESSAGE value="def get_month_range(start_date=None):" />
+    <option name="LAST_COMMIT_MESSAGE" value="def get_month_range(start_date=None):" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,6 +777,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_15.py" />
     <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -792,14 +795,44 @@
     <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/passwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1_2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>

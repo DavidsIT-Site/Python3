@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skipped.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,42 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4_iter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_7.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +51,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" lean-forward="true" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipped.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -120,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Common_Questions/ch1_13.py" />
-        <option value="$PROJECT_DIR$/Common_Questions/ch1_14.py" />
-        <option value="$PROJECT_DIR$/Common_Questions/ch1_15.py" />
-        <option value="$PROJECT_DIR$/Common_Questions/ch1.9.py" />
         <option value="$PROJECT_DIR$/Common_Questions/ch1_16.py" />
         <option value="$PROJECT_DIR$/Common_Questions/ch1_17.py" />
         <option value="$PROJECT_DIR$/Common_Questions/CH1_18.py" />
@@ -171,6 +169,10 @@
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_9.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py" />
+        <option value="$PROJECT_DIR$/skipped.py" />
+        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py" />
       </list>
     </option>
   </component>
@@ -227,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch4_11">
+  <component name="RunManager" selected="Python.ch4_14">
     <configuration name="ch4_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch4_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch4_12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,7 +284,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch4_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch4_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,7 +305,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch4_14" />
+        <item itemvalue="Python.ch4_12" />
         <item itemvalue="Python.ch4_11" />
         <item itemvalue="Python.ch4_10" />
         <item itemvalue="Python.ch4_9" />
-        <item itemvalue="Python.ch4_8" />
-        <item itemvalue="Python.ch4_7" />
       </list>
     </recent_temporary>
   </component>
@@ -353,27 +355,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00004" summary="sorting dictionaries">
-      <created>1547516220919</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1547516220919</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Sorting new objects">
-      <created>1547518001915</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1547518001915</updated>
-    </task>
-    <task id="LOCAL-00006" summary="groupby">
-      <created>1547519228268</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1547519228268</updated>
     </task>
     <task id="LOCAL-00007" summary="groupby/defaultdict">
       <created>1547523075167</created>
@@ -697,7 +678,28 @@
       <option name="project" value="LOCAL" />
       <updated>1548700704697</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="# iterating over multiple sequences simultaneously">
+      <created>1548701318072</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1548701318072</updated>
+    </task>
+    <task id="LOCAL-00054" summary="# iterating on items in separate containers">
+      <created>1548701489826</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1548701489826</updated>
+    </task>
+    <task id="LOCAL-00055" summary="# creating data processing pipelines&#10;# cause you have a huge amount of data that needs to be processed and it can't fit into memory">
+      <created>1548701620552</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1548701620552</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -724,9 +726,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" numbers, dates, and times" />
-    <MESSAGE value="# formatting numbers for output" />
-    <MESSAGE value=" binary, octal, and hexadecimal" />
     <MESSAGE value="complex value math" />
     <MESSAGE value="# with infinity and nans" />
     <MESSAGE value="# with fractions" />
@@ -749,7 +748,10 @@
     <MESSAGE value="# skipping the first part of an iterable" />
     <MESSAGE value="# iterating over possible combinations and permutations" />
     <MESSAGE value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
+    <MESSAGE value="# iterating over multiple sequences simultaneously" />
+    <MESSAGE value="# iterating on items in separate containers" />
+    <MESSAGE value="# creating data processing pipelines&#10;# cause you have a huge amount of data that needs to be processed and it can't fit into memory" />
+    <option name="LAST_COMMIT_MESSAGE" value="# creating data processing pipelines&#10;# cause you have a huge amount of data that needs to be processed and it can't fit into memory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,10 +765,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Common_Questions/ch1_1.py" />
-    <entry file="file://$PROJECT_DIR$/Common_Questions/ch1_5.py" />
-    <entry file="file://$PROJECT_DIR$/Common_Questions/ch1_8.py" />
-    <entry file="file://$PROJECT_DIR$/Common_Questions/ch1.9.py" />
     <entry file="file://$PROJECT_DIR$/Common_Questions/ch1_16.py" />
     <entry file="file://$PROJECT_DIR$/Common_Questions/ch1_17.py" />
     <entry file="file://$PROJECT_DIR$/Common_Questions/CH1_18.py" />
@@ -1030,8 +1028,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipped.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>

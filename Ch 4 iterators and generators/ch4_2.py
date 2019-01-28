@@ -32,10 +32,11 @@ if __name__ == '__main__':
     child3 = Node(3)
     child1.add_child(child3)
 
+    for ch in child1:
+        print(ch)
     for ch in root:
         print(ch)
-    for ch in child1s:
-        print(ch)
+
 
 #  "" If all you are doing
 # is iterating over the contents of another container, you don’t really need to worry about

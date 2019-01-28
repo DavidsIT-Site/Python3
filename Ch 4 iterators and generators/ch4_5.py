@@ -25,3 +25,12 @@ class Countdown:
         while n <= self.start:
             yield n
             n += 1
+
+
+count = Countdown(5)
+for line in reversed(count):
+    print(line)
+count = Countdown(5)
+##next(count)
+iterable = iter(count)
+print(next(iterable))

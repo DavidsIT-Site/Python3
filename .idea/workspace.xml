@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bonus network check/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +26,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py">
+        <entry file="file://$PROJECT_DIR$/bonus network check/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_14.py" />
         <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_15.py" />
         <option value="$PROJECT_DIR$/Ch 2 Strings/ch2_16.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py" />
@@ -114,6 +125,7 @@
         <option value="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_1.py" />
         <option value="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py" />
         <option value="$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py" />
+        <option value="$PROJECT_DIR$/bonus network check/main.py" />
       </list>
     </option>
   </component>
@@ -180,28 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch6_8">
-    <configuration name="ch5_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 5 Files and IO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 5 Files and IO/ch5_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="ch5_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,13 +277,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bonus network check" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bonus network check/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.ch6_8" />
         <item itemvalue="Python.ch6_2" />
         <item itemvalue="Python.ch6_1" />
         <item itemvalue="Python.ch5_4" />
-        <item itemvalue="Python.ch5_3" />
       </list>
     </recent_temporary>
   </component>
@@ -306,20 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Searching and replacing text">
-      <created>1547910430370</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1547910430370</updated>
-    </task>
-    <task id="LOCAL-00019" summary="strip unwanted characters from strings">
-      <created>1548086741144</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1548086741144</updated>
     </task>
     <task id="LOCAL-00020" summary=" format text with alignment">
       <created>1548090081923</created>
@@ -650,7 +648,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548788614575</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="# Reading and writing JSON data&#10;import json">
+      <created>1548790362473</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1548790362473</updated>
+    </task>
+    <task id="LOCAL-00068" summary="#Interacting with a relational database">
+      <created>1548790371761</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1548790371761</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -662,13 +674,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5923567" visible="true" weight="0.24018839" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72213376" visible="true" weight="0.3500785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40764332" side_tool="true" visible="true" weight="0.24018839" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27786624" side_tool="true" visible="true" weight="0.3500785" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -677,7 +689,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="converting time days to seconds" />
     <MESSAGE value="from datetime import timedelta&#10;from datetime import datetime" />
     <MESSAGE value="def get_prevous_byday(dayname,start_date=None):" />
     <MESSAGE value="def get_month_range(start_date=None):" />
@@ -702,7 +713,8 @@
     <MESSAGE value="# printing with a different separator or line ending" />
     <MESSAGE value="# reading and writing csv file" />
     <MESSAGE value="# Reading and writing JSON data&#10;import json" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Reading and writing JSON data&#10;import json" />
+    <MESSAGE value="#Interacting with a relational database" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Interacting with a relational database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,13 +728,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -998,15 +1003,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonus network check/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

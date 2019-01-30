@@ -1,0 +1,1 @@
+# replacing single method classes with functions

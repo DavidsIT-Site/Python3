@@ -6,4 +6,7 @@ ch5_5
 ch5_18 # can i do this with network IO?
 
 
-ch6_8 #databases
+**ch6_8 #databases
+
+ch7_9 # replacing single method classes with functions
+**ch7_10 closures, callbacks,  *

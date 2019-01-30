@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 7 Functions/ch7_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skipped.py" beforeDir="false" afterPath="$PROJECT_DIR$/skipped.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,76 +15,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipped.py">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_11.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="e#121#144#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_12.py">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -107,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_2.py" />
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_9.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py" />
@@ -158,6 +98,8 @@
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_11.py" />
         <option value="$PROJECT_DIR$/skipped.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_12.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py" />
       </list>
     </option>
   </component>
@@ -182,7 +124,7 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 7 Functions" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch 8 Classes and Objects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch7_12">
+  <component name="RunManager" selected="Python.ch8_2">
     <configuration name="ch7_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch7_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 7 Functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 8 Classes and Objects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 7 Functions/ch7_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch7_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,11 +249,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 7 Functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 8 Classes and Objects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 7 Functions/ch7_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_2" />
+        <item itemvalue="Python.ch8_1" />
         <item itemvalue="Python.ch7_12" />
         <item itemvalue="Python.ch7_11" />
         <item itemvalue="Python.ch7_10" />
-        <item itemvalue="Python.ch7_8" />
-        <item itemvalue="Python.ch7_7" />
       </list>
     </recent_temporary>
   </component>
@@ -340,20 +282,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00035" summary="import random">
-      <created>1548472040710</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1548472040710</updated>
-    </task>
-    <task id="LOCAL-00036" summary="converting time days to seconds">
-      <created>1548472066779</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1548472066779</updated>
     </task>
     <task id="LOCAL-00037" summary="from datetime import timedelta&#10;from datetime import datetime">
       <created>1548472617422</created>
@@ -684,7 +612,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548871483958</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="# accessing variables inside a closure">
+      <created>1548872068702</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1548872068702</updated>
+    </task>
+    <task id="LOCAL-00085" summary="# changing the string representation of instances">
+      <created>1548872407667</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1548872407667</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -720,8 +662,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# skipping the first part of an iterable" />
-    <MESSAGE value="# iterating over possible combinations and permutations" />
     <MESSAGE value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
     <MESSAGE value="# iterating over multiple sequences simultaneously" />
     <MESSAGE value="# iterating on items in separate containers" />
@@ -745,7 +685,9 @@
     <MESSAGE value="# making n- argument callable work with fewer arguments&#10;from functools import partial" />
     <MESSAGE value="# carrying extra state with callback functions" />
     <MESSAGE value="inlining callback functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="inlining callback functions" />
+    <MESSAGE value="# accessing variables inside a closure" />
+    <MESSAGE value="# changing the string representation of instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="# changing the string representation of instances" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -759,20 +701,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1035,7 +963,21 @@
     <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

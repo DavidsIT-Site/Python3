@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 7 Functions/ch7_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 7 Functions/ch7_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,9 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_6.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -36,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_7.py" />
@@ -87,6 +99,7 @@
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_4.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_5.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_6.py" />
+        <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_7.py" />
       </list>
     </option>
   </component>
@@ -107,16 +120,6 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 5 Files and IO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 6 Data Encoding and processing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
@@ -153,28 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch7_6">
-    <configuration name="ch7_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 7 Functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 7 Functions/ch7_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch7_7">
     <configuration name="ch7_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,13 +241,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch7_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 7 Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 7 Functions/ch7_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch7_7" />
         <item itemvalue="Python.ch7_6" />
         <item itemvalue="Python.ch7_5" />
         <item itemvalue="Python.ch7_4" />
         <item itemvalue="Python.ch7_3" />
-        <item itemvalue="Python.ch7_2" />
       </list>
     </recent_temporary>
   </component>
@@ -279,13 +282,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00028" summary=" binary, octal, and hexadecimal">
-      <created>1548260130996</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1548260130996</updated>
     </task>
     <task id="LOCAL-00029" summary="complex value math">
       <created>1548263663518</created>
@@ -623,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548859184154</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="# defining anonymous functions">
+      <created>1548859501436</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1548859501436</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -639,12 +642,12 @@
     <frame x="1132" y="0" width="1181" height="1313" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19072616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19072616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7191601" visible="true" weight="0.35" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7191601" visible="true" weight="0.35" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,7 +662,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="countdown iterator&#10;#  new iteration patterns with generators&#10;#  to implement a custom iteration pattern" />
     <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
     <MESSAGE value="# defining generator functions with extra state" />
@@ -684,7 +686,8 @@
     <MESSAGE value="# attaching informational metadata to functional arguments&#10;&#10;# any type of object can be an instance" />
     <MESSAGE value="return multiple values from a function" />
     <MESSAGE value="# functions with default arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="# functions with default arguments" />
+    <MESSAGE value="# defining anonymous functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="# defining anonymous functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,13 +701,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -962,12 +958,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_6.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 5 Files and IO/ch5_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>

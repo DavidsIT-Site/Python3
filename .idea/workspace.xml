@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 7 Functions/ch7_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -282,13 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00029" summary="complex value math">
-      <created>1548263663518</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1548263663518</updated>
     </task>
     <task id="LOCAL-00030" summary="# with infinity and nans">
       <created>1548277821829</created>
@@ -626,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548859501436</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="# capturing values from anonymous functions">
+      <created>1548860494967</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1548860494967</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -662,7 +661,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
     <MESSAGE value="# defining generator functions with extra state" />
     <MESSAGE value="# you want sliced data from an iterator but normal slicing [y:z] doesn't work" />
@@ -687,7 +685,8 @@
     <MESSAGE value="return multiple values from a function" />
     <MESSAGE value="# functions with default arguments" />
     <MESSAGE value="# defining anonymous functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="# defining anonymous functions" />
+    <MESSAGE value="# capturing values from anonymous functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="# capturing values from anonymous functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,8 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="340">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skipped.py" beforeDir="false" afterPath="$PROJECT_DIR$/skipped.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +17,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipped.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -23,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py" />
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_14.py" />
@@ -96,17 +123,20 @@
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_9.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_10.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_11.py" />
-        <option value="$PROJECT_DIR$/skipped.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_12.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_1.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py" />
+        <option value="$PROJECT_DIR$/skipped.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1146" />
-    <option name="width" value="1181" />
-    <option name="height" value="1313" />
+    <option name="x" value="3098" />
+    <option name="y" value="490" />
+    <option name="width" value="1236" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -156,28 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_2">
-    <configuration name="ch7_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 7 Functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 7 Functions/ch7_10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch8_3">
     <configuration name="ch7_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,13 +271,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch8_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 8 Classes and Objects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_3" />
         <item itemvalue="Python.ch8_2" />
         <item itemvalue="Python.ch8_1" />
         <item itemvalue="Python.ch7_12" />
         <item itemvalue="Python.ch7_11" />
-        <item itemvalue="Python.ch7_10" />
       </list>
     </recent_temporary>
   </component>
@@ -282,20 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00037" summary="from datetime import timedelta&#10;from datetime import datetime">
-      <created>1548472617422</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1548472617422</updated>
-    </task>
-    <task id="LOCAL-00038" summary="def get_prevous_byday(dayname,start_date=None):">
-      <created>1548477906629</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1548477906629</updated>
     </task>
     <task id="LOCAL-00039" summary="def get_month_range(start_date=None):">
       <created>1548478238485</created>
@@ -626,7 +642,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548872407667</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="# changing the string representation of instances">
+      <created>1548875082708</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1548875082708</updated>
+    </task>
+    <task id="LOCAL-00087" summary="# making objects support &quot;with&quot; the context management protocol">
+      <created>1548875126873</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1548875126873</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -639,21 +669,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1146" y="0" width="1181" height="1313" extended-state="0" />
+    <frame x="3098" y="490" width="1236" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19072616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18196996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7191601" visible="true" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7178631" weight="0.35" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49956256" weight="0.2940678" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2808399" side_tool="true" visible="true" weight="0.35" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2821369" side_tool="true" visible="true" weight="0.34901533" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49868765" weight="0.320339" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49956256" weight="0.329661" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -662,7 +692,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
     <MESSAGE value="# iterating over multiple sequences simultaneously" />
     <MESSAGE value="# iterating on items in separate containers" />
     <MESSAGE value="# creating data processing pipelines&#10;# cause you have a huge amount of data that needs to be processed and it can't fit into memory" />
@@ -687,7 +716,8 @@
     <MESSAGE value="inlining callback functions" />
     <MESSAGE value="# accessing variables inside a closure" />
     <MESSAGE value="# changing the string representation of instances" />
-    <option name="LAST_COMMIT_MESSAGE" value="# changing the string representation of instances" />
+    <MESSAGE value="# making objects support &quot;with&quot; the context management protocol" />
+    <option name="LAST_COMMIT_MESSAGE" value="# making objects support &quot;with&quot; the context management protocol" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,20 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -953,17 +969,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipped.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipped.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -977,7 +993,21 @@
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>

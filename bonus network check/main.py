@@ -4,7 +4,7 @@ from timeit import default_timer as timer
 
 network_test_list = ['10.10.10.14', '10.10.10.18', '10.10.10.1', '10.10.10.2', 'www.google.com']
 network_test_list = [ 'www.google.com']
-file_download = "S:\\software\\FW_tests\\10mb.bin"
+
 upload_tmp_dir = "S:\\software\\FW_tests\\temp"
 
 
@@ -30,11 +30,11 @@ for f in files:
 
 
 start = timer()
-copyfile("S:\\software\\FW_tests\\50mb.bin", "S:\\software\\FW_tests\\temp\\50mb.bin")
+copyfile("S:\\software\\FW_tests\\10mb.bin", "S:\\software\\FW_tests\\temp\\10mb.bin")
 end = timer()
 time = (end - start)
-speed = 10/time
-output.append("50MB test speed:{} Time:{}".format(time, speed))
+speed = 50/time
+output.append("\n10MB test speed:{} Time:{}".format(speed, time))
 with open('S:\\software\\FW_tests\\{}.txt'.format(name), 'wt') as f:
     for item in output:
         print(item, file=f)

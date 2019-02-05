@@ -5,4 +5,3 @@ class Date:
     self.year = year
     self.month = month
     self.day = day
-#pick up here

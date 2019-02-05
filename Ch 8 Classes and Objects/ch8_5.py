@@ -29,3 +29,4 @@ class C(B):
         print('this is a private method')
 
 #__private and __private_method get renamed to _C__private and _C__private_method
+

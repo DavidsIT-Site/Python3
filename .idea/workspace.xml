@@ -14,28 +14,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+        <entry file="file://$PROJECT_DIR$/clean_text/keyboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="731">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -51,12 +50,15 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_1.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_2.py" />
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_3.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
@@ -104,17 +106,14 @@
         <option value="$PROJECT_DIR$/skipped.py" />
         <option value="$PROJECT_DIR$/Ch 7 Functions/ch7_1.py" />
         <option value="$PROJECT_DIR$/bonus network check/main.py" />
-        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py" />
-        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_=.py" />
-        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="x" value="3534" />
+    <option name="width" value="1236" />
+    <option name="height" value="2167" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -128,11 +127,6 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="bonus network check" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +289,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
+    </task>
+    <task id="LOCAL-00024" summary="reformatting text">
+      <created>1548175415877</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1548175415877</updated>
     </task>
     <task id="LOCAL-00025" summary=" numbers, dates, and times">
       <created>1548175491683</created>
@@ -632,33 +633,26 @@
       <option name="project" value="LOCAL" />
       <updated>1548855345394</updated>
     </task>
-    <task id="LOCAL-00073" summary="Cleaning up">
-      <created>1548956896660</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1548956896661</updated>
-    </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="3534" y="0" width="1236" height="2167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16401275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25709516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.718949" visible="true" weight="0.48744112" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.71869785" visible="true" weight="0.46705997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.28105095" side_tool="true" visible="true" weight="0.48744112" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49761146" weight="0.2299843" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.28130218" side_tool="true" visible="true" weight="0.46705997" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920383" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -705,6 +699,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_1.py" />
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -959,7 +954,7 @@
     <entry file="file://$PROJECT_DIR$/skipped.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="18" selection-end-column="71" />
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -975,33 +970,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bonus network check/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_=.py" />
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+    <entry file="file://$PROJECT_DIR$/clean_text/keyboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

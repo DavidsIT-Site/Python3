@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <ignored path="C:\Users\davidf\PycharmProjects\Python3\.idea\shelf/" />
@@ -43,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -78,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
@@ -129,6 +136,7 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_7.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" />
       </list>
     </option>
   </component>
@@ -316,13 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00025" summary=" numbers, dates, and times">
-      <created>1548175491683</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1548175491683</updated>
     </task>
     <task id="LOCAL-00026" summary=" numbers, dates, and times">
       <created>1548181275982</created>
@@ -660,19 +661,26 @@
       <option name="project" value="LOCAL" />
       <updated>1549420311045</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="extending property in a subclass">
+      <created>1549641066103</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1549641066104</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15525478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15525478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7165605" visible="true" weight="0.48194662" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7165605" visible="true" weight="0.48194662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -687,7 +695,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#  delegating iteration&#10;#  a custom container object that internally holds some iterable: list, tuple, ext&#10;#  define __iter__()" />
     <MESSAGE value="countdown iterator&#10;#  new iteration patterns with generators&#10;#  to implement a custom iteration pattern" />
     <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
@@ -712,7 +719,8 @@
     <MESSAGE value="# a function that accepts any number of arguments" />
     <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="# creating managed attributes" />
+    <MESSAGE value="extending property in a subclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="extending property in a subclass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,13 +734,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1032,6 +1033,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

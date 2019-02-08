@@ -32,4 +32,28 @@ class SubPerson(Person):
     @name.setter
     def name(self, value):
         print('setting name to ', value)
-        super(SubPerson, SubPerson).name.__set__(self.value)
+        super(SubPerson, SubPerson).name.__set__(self, value)
+
+    @name.deleter
+    def name(self):
+        print('Deleting self')
+        super(SubPerson, SubPerson).name.__delete__(self)
+
+s = SubPerson("John Doe")
+print(s)
+print(s.name)
+s.name = "David"
+#s.name = 12
+
+class SubPerson2(Person):
+
+    @Person.name.getter
+    def name(self):
+        print('Getting name')
+        return super().name
+
+s2 = SubPerson2("john doe")
+print(s2)
+print(s2.name)
+s2.name = "test"
+print(s2.name)

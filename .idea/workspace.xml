@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -324,20 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00026" summary=" numbers, dates, and times">
-      <created>1548181275982</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1548181275982</updated>
-    </task>
-    <task id="LOCAL-00027" summary="# formatting numbers for output">
-      <created>1548258749533</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1548258749533</updated>
     </task>
     <task id="LOCAL-00028" summary=" binary, octal, and hexadecimal">
       <created>1548260130996</created>
@@ -668,7 +653,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549641066104</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="# creating a new kind of class or instance attribute">
+      <created>1549643581191</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1549643581191</updated>
+    </task>
+    <task id="LOCAL-00076" summary="# creating a new kind of class or instance attribute">
+      <created>1549664585014</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1549664585015</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,7 +694,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="countdown iterator&#10;#  new iteration patterns with generators&#10;#  to implement a custom iteration pattern" />
     <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
     <MESSAGE value="# defining generator functions with extra state" />
@@ -720,7 +718,8 @@
     <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
     <MESSAGE value="extending property in a subclass" />
-    <option name="LAST_COMMIT_MESSAGE" value="extending property in a subclass" />
+    <MESSAGE value="# creating a new kind of class or instance attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="# creating a new kind of class or instance attribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1038,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

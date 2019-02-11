@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,11 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_14.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_15.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -108,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_2.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_9.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
@@ -159,6 +171,7 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_13.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_14.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_15.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" />
       </list>
     </option>
   </component>
@@ -215,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_14">
+  <component name="RunManager" selected="Python.ch8_16">
     <configuration name="ch8_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch8_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_16" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,7 +283,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_16" />
         <item itemvalue="Python.ch8_14" />
         <item itemvalue="Python.ch8_11" />
         <item itemvalue="Python.ch_8_10" />
         <item itemvalue="Python.ch8_9" />
-        <item itemvalue="Python.ch8_8" />
       </list>
     </recent_temporary>
   </component>
@@ -341,20 +354,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00031" summary="# with fractions">
-      <created>1548278187007</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1548278187007</updated>
-    </task>
-    <task id="LOCAL-00032" summary="cleanup">
-      <created>1548278295661</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1548278295661</updated>
     </task>
     <task id="LOCAL-00033" summary="numerical arrays">
       <created>1548345732771</created>
@@ -685,19 +684,33 @@
       <option name="project" value="LOCAL" />
       <updated>1549911158425</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="This recipe only provides a brief glimpse into Python’s abstract class functionality. The&#10;numbers module provides a similar collection of abstract classes related to numeric data&#10;types. See Recipe 8.12 for more information about making your own abstract base&#10;classes.">
+      <created>1549911645961</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1549911645961</updated>
+    </task>
+    <task id="LOCAL-00081" summary="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call.">
+      <created>1549911990393</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1549911990394</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1105" height="1294" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2882629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2882629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7173913" visible="true" weight="0.34253666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7173913" visible="true" weight="0.34253666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -712,8 +725,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# defining generator functions with extra state" />
-    <MESSAGE value="# you want sliced data from an iterator but normal slicing [y:z] doesn't work" />
     <MESSAGE value="# islice consumes data. can't undo iterators. maybe a list instead" />
     <MESSAGE value="# skipping the first part of an iterable" />
     <MESSAGE value="# iterating over possible combinations and permutations" />
@@ -737,7 +748,9 @@
     <MESSAGE value="# simplifying the initialization of data structures&#10;import math" />
     <MESSAGE value="# defining an interface or abssstract base class&#10;&#10;    #skipping for now" />
     <MESSAGE value="# implementing a data model or type system&#10;# Covering the basics of all&#10;# those topics is beyond what can be covered here, but examples can be found in other&#10;# recipes (see Recipes 8.9, 8.18, 9.12, and 9.19). However, there are a number of subtle&#10;# points worth noting." />
-    <option name="LAST_COMMIT_MESSAGE" value="# implementing a data model or type system&#10;# Covering the basics of all&#10;# those topics is beyond what can be covered here, but examples can be found in other&#10;# recipes (see Recipes 8.9, 8.18, 9.12, and 9.19). However, there are a number of subtle&#10;# points worth noting." />
+    <MESSAGE value="This recipe only provides a brief glimpse into Python’s abstract class functionality. The&#10;numbers module provides a similar collection of abstract classes related to numeric data&#10;types. See Recipe 8.12 for more information about making your own abstract base&#10;classes." />
+    <MESSAGE value="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call." />
+    <option name="LAST_COMMIT_MESSAGE" value="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -751,13 +764,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1038,13 +1044,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_15.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_14.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>

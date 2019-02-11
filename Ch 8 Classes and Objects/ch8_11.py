@@ -39,3 +39,4 @@ c = Circle(2)
 print(c.perimeter())
 
 # two options in book for *kwargs
+# local frame hacking looks to be good for memory optimization

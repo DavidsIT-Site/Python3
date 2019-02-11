@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_19.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_19.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_14.py" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_17.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_19.py" />
       </list>
     </option>
   </component>
@@ -228,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_17">
+  <component name="RunManager" selected="Python.ch8_19">
     <configuration name="ch8_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch_8_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_19" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,7 +325,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_19" />
         <item itemvalue="Python.ch8_17" />
         <item itemvalue="Python.ch8_16" />
         <item itemvalue="Python.ch8_14" />
         <item itemvalue="Python.ch8_11" />
-        <item itemvalue="Python.ch_8_10" />
       </list>
     </recent_temporary>
   </component>
@@ -354,20 +354,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00035" summary="import random">
-      <created>1548472040710</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1548472040710</updated>
-    </task>
-    <task id="LOCAL-00036" summary="converting time days to seconds">
-      <created>1548472066779</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1548472066779</updated>
     </task>
     <task id="LOCAL-00037" summary="from datetime import timedelta&#10;from datetime import datetime">
       <created>1548472617422</created>
@@ -698,7 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549913391715</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Mixin classes appear in various places in the standard library, mostly as a means for&#10;extending the functionality of other classes similar to as shown. They are also one of&#10;the main uses of multiple inheritance. For instance, if you are writing network code,&#10;you can often use the ThreadingMixIn from the socketserver module to add thread&#10;support to other network-related classes">
+      <created>1549913836873</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1549913836873</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Mixin classes appear in various places in the standard library, mostly as a means for&#10;extending the functionality of other classes similar to as shown. They are also one of&#10;the main uses of multiple inheritance. For instance, if you are writing network code,&#10;you can often use the ThreadingMixIn from the socketserver module to add thread&#10;support to other network-related classes">
+      <created>1549913905840</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1549913905840</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,7 +725,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# iterating over possible combinations and permutations" />
     <MESSAGE value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
     <MESSAGE value="# iterating over multiple sequences simultaneously" />
     <MESSAGE value="# iterating on items in separate containers" />
@@ -750,7 +749,8 @@
     <MESSAGE value="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call." />
     <MESSAGE value="&#10;# better clarity with &#10;# date.today()" />
     <MESSAGE value="When creating instances in a nonstandard way, it’s usually best to not make too many&#10;assumptions about their implementation. As such, you generally don’t want to write&#10;code that directly manipulates the underlying instance dictionary __dict__ unless you&#10;know it’s guaranteed to be defined. Otherwise, the code will break if the class uses&#10;__slots__, properties, descriptors, or other advanced techniques. By using se&#10;tattr() to set the values, your code will be as general purpose as possible." />
-    <option name="LAST_COMMIT_MESSAGE" value="When creating instances in a nonstandard way, it’s usually best to not make too many&#10;assumptions about their implementation. As such, you generally don’t want to write&#10;code that directly manipulates the underlying instance dictionary __dict__ unless you&#10;know it’s guaranteed to be defined. Otherwise, the code will break if the class uses&#10;__slots__, properties, descriptors, or other advanced techniques. By using se&#10;tattr() to set the values, your code will be as general purpose as possible." />
+    <MESSAGE value="Mixin classes appear in various places in the standard library, mostly as a means for&#10;extending the functionality of other classes similar to as shown. They are also one of&#10;the main uses of multiple inheritance. For instance, if you are writing network code,&#10;you can often use the ThreadingMixIn from the socketserver module to add thread&#10;support to other network-related classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mixin classes appear in various places in the standard library, mostly as a means for&#10;extending the functionality of other classes similar to as shown. They are also one of&#10;the main uses of multiple inheritance. For instance, if you are writing network code,&#10;you can often use the ThreadingMixIn from the socketserver module to add thread&#10;support to other network-related classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,13 +764,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_14.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1060,8 +1053,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>

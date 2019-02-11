@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="# creating managed attributes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
-    <ignored path="C:\Users\davidf\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,19 +15,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+        <entry file="file://$PROJECT_DIR$/clean_text/keyboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="68">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -35,17 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="-7">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -53,17 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="167">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,6 +75,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
@@ -134,15 +125,14 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_7.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" />
-        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="width" value="1105" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -156,11 +146,6 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="bonus network check" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_8_descriptor">
+  <component name="RunManager" selected="Python.ch8_9">
     <configuration name="ch8_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch8_8_descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_9" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +258,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,7 +290,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ch8_8_descriptor" />
+        <item itemvalue="Python.ch8_9" />
         <item itemvalue="Python.ch8_8" />
         <item itemvalue="Python.ch8_7" />
         <item itemvalue="Python.ch8_6" />
@@ -323,6 +308,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
+    </task>
+    <task id="LOCAL-00025" summary=" numbers, dates, and times">
+      <created>1548175491683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548175491683</updated>
+    </task>
+    <task id="LOCAL-00026" summary=" numbers, dates, and times">
+      <created>1548181275982</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1548181275982</updated>
+    </task>
+    <task id="LOCAL-00027" summary="# formatting numbers for output">
+      <created>1548258749533</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548258749533</updated>
     </task>
     <task id="LOCAL-00028" summary=" binary, octal, and hexadecimal">
       <created>1548260130996</created>
@@ -646,46 +652,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549420311045</updated>
     </task>
-    <task id="LOCAL-00074" summary="extending property in a subclass">
-      <created>1549641066103</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1549641066104</updated>
-    </task>
-    <task id="LOCAL-00075" summary="# creating a new kind of class or instance attribute">
-      <created>1549643581191</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1549643581191</updated>
-    </task>
-    <task id="LOCAL-00076" summary="# creating a new kind of class or instance attribute">
-      <created>1549664585014</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1549664585015</updated>
-    </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1105" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15525478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2882629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7165605" visible="true" weight="0.48194662" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7173913" visible="true" weight="0.48238152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2834395" side_tool="true" visible="true" weight="0.48194662" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2826087" side_tool="true" visible="true" weight="0.4827004" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3207547" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920383" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -694,6 +679,8 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="#  delegating iteration&#10;#  a custom container object that internally holds some iterable: list, tuple, ext&#10;#  define __iter__()" />
+    <MESSAGE value="countdown iterator&#10;#  new iteration patterns with generators&#10;#  to implement a custom iteration pattern" />
     <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
     <MESSAGE value="# defining generator functions with extra state" />
@@ -717,9 +704,7 @@
     <MESSAGE value="# a function that accepts any number of arguments" />
     <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
-    <MESSAGE value="extending property in a subclass" />
-    <MESSAGE value="# creating a new kind of class or instance attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="# creating a new kind of class or instance attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="# creating managed attributes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,6 +718,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4_iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -993,6 +992,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1000,45 +1009,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8_descriptor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="-7">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="167">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>

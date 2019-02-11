@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,24 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="323">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="17" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_17.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -121,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_9.py" />
-        <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_10.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_11.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_12.py" />
         <option value="$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_13.py" />
@@ -172,6 +170,8 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_14.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_15.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_17.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py" />
       </list>
     </option>
   </component>
@@ -228,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_16">
+  <component name="RunManager" selected="Python.ch8_17">
     <configuration name="ch8_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch8_9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch8_17" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,7 +304,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_17.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_17" />
         <item itemvalue="Python.ch8_16" />
         <item itemvalue="Python.ch8_14" />
         <item itemvalue="Python.ch8_11" />
         <item itemvalue="Python.ch_8_10" />
-        <item itemvalue="Python.ch8_9" />
       </list>
     </recent_temporary>
   </component>
@@ -354,20 +354,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00033" summary="numerical arrays">
-      <created>1548345732771</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1548345732771</updated>
-    </task>
-    <task id="LOCAL-00034" summary="# performing matrix array stuff">
-      <created>1548471495121</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1548471495121</updated>
     </task>
     <task id="LOCAL-00035" summary="import random">
       <created>1548472040710</created>
@@ -698,7 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549911990394</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="&#10;# better clarity with &#10;# date.today()">
+      <created>1549912999224</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1549912999224</updated>
+    </task>
+    <task id="LOCAL-00083" summary="When creating instances in a nonstandard way, it’s usually best to not make too many&#10;assumptions about their implementation. As such, you generally don’t want to write&#10;code that directly manipulates the underlying instance dictionary __dict__ unless you&#10;know it’s guaranteed to be defined. Otherwise, the code will break if the class uses&#10;__slots__, properties, descriptors, or other advanced techniques. By using se&#10;tattr() to set the values, your code will be as general purpose as possible.">
+      <created>1549913391715</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1549913391715</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,8 +725,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# islice consumes data. can't undo iterators. maybe a list instead" />
-    <MESSAGE value="# skipping the first part of an iterable" />
     <MESSAGE value="# iterating over possible combinations and permutations" />
     <MESSAGE value="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence" />
     <MESSAGE value="# iterating over multiple sequences simultaneously" />
@@ -750,7 +748,9 @@
     <MESSAGE value="# implementing a data model or type system&#10;# Covering the basics of all&#10;# those topics is beyond what can be covered here, but examples can be found in other&#10;# recipes (see Recipes 8.9, 8.18, 9.12, and 9.19). However, there are a number of subtle&#10;# points worth noting." />
     <MESSAGE value="This recipe only provides a brief glimpse into Python’s abstract class functionality. The&#10;numbers module provides a similar collection of abstract classes related to numeric data&#10;types. See Recipe 8.12 for more information about making your own abstract base&#10;classes." />
     <MESSAGE value="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call." />
-    <option name="LAST_COMMIT_MESSAGE" value="See Recipe 11.8 for another example of using delegation in the context of creating proxy&#10;classes for remote procedure call." />
+    <MESSAGE value="&#10;# better clarity with &#10;# date.today()" />
+    <MESSAGE value="When creating instances in a nonstandard way, it’s usually best to not make too many&#10;assumptions about their implementation. As such, you generally don’t want to write&#10;code that directly manipulates the underlying instance dictionary __dict__ unless you&#10;know it’s guaranteed to be defined. Otherwise, the code will break if the class uses&#10;__slots__, properties, descriptors, or other advanced techniques. By using se&#10;tattr() to set the values, your code will be as general purpose as possible." />
+    <option name="LAST_COMMIT_MESSAGE" value="When creating instances in a nonstandard way, it’s usually best to not make too many&#10;assumptions about their implementation. As such, you generally don’t want to write&#10;code that directly manipulates the underlying instance dictionary __dict__ unless you&#10;know it’s guaranteed to be defined. Otherwise, the code will break if the class uses&#10;__slots__, properties, descriptors, or other advanced techniques. By using se&#10;tattr() to set the values, your code will be as general purpose as possible." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,20 +764,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1060,8 +1046,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="17" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_17.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>

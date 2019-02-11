@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="# creating managed attributes">
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +49,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="276">
+              <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="16" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -75,8 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_4.py" />
-        <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_5.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/jd3{6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_6.py" />
         <option value="$PROJECT_DIR$/00 Hello Universe/Ch 3 Numbers, dates, times/ch3_7.py" />
@@ -126,13 +142,15 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_7.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_8.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py" />
+        <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_11.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1105" />
-    <option name="height" value="958" />
+    <option name="height" value="1294" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,8 +200,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch8_9">
-    <configuration name="ch8_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ch8_11">
+    <configuration name="ch8_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +285,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch_8_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +293,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bonus network check" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 8 Classes and Objects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bonus network check/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch8_11" />
+        <item itemvalue="Python.ch_8_10" />
         <item itemvalue="Python.ch8_9" />
         <item itemvalue="Python.ch8_8" />
         <item itemvalue="Python.ch8_7" />
-        <item itemvalue="Python.ch8_6" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,20 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00025" summary=" numbers, dates, and times">
-      <created>1548175491683</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1548175491683</updated>
-    </task>
-    <task id="LOCAL-00026" summary=" numbers, dates, and times">
-      <created>1548181275982</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1548181275982</updated>
     </task>
     <task id="LOCAL-00027" summary="# formatting numbers for output">
       <created>1548258749533</created>
@@ -652,11 +656,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549420311045</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="https://python-forum.io/Thread-Unexpected-expected-type-error-result">
+      <created>1549901793294</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1549901793294</updated>
+    </task>
+    <task id="LOCAL-00075" summary="https://python-forum.io/Thread-Unexpected-expected-type-error-result">
+      <created>1549909710681</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1549909710681</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1105" height="958" extended-state="0" />
+    <frame x="-7" y="0" width="1105" height="1294" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2882629" />
@@ -664,7 +682,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7173913" visible="true" weight="0.48238152" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7173913" visible="true" weight="0.34253666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +697,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#  delegating iteration&#10;#  a custom container object that internally holds some iterable: list, tuple, ext&#10;#  define __iter__()" />
     <MESSAGE value="countdown iterator&#10;#  new iteration patterns with generators&#10;#  to implement a custom iteration pattern" />
     <MESSAGE value="depth first iterator" />
     <MESSAGE value="# iterating in reverse" />
@@ -704,7 +721,8 @@
     <MESSAGE value="# a function that accepts any number of arguments" />
     <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="# creating managed attributes" />
+    <MESSAGE value="https://python-forum.io/Thread-Unexpected-expected-type-error-result" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://python-forum.io/Thread-Unexpected-expected-type-error-result" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,20 +736,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4_iter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4 iterators and generators/ch4_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1018,8 +1022,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="276">
+          <caret line="40" column="70" lean-forward="true" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch_8_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="16" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>

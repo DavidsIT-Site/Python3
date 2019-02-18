@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -68,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -94,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_3.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_4_iter.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_5.py" />
@@ -145,6 +153,7 @@
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_24.py" />
         <option value="$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_25.py" />
         <option value="$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_3.py" />
+        <option value="$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py" />
       </list>
     </option>
   </component>
@@ -327,13 +336,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00045" summary="# defining generator functions with extra state">
-      <created>1548693041953</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1548693041953</updated>
     </task>
     <task id="LOCAL-00046" summary="# defining generator functions with extra state">
       <created>1548698446753</created>
@@ -671,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550243907957</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="unwrapping a decorator">
+      <created>1550498698732</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1550498698732</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -698,7 +707,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# reading and writing text data" />
     <MESSAGE value="# printing to a file" />
     <MESSAGE value="# printing with a different separator or line ending" />
     <MESSAGE value="# reading and writing csv file" />
@@ -723,7 +731,8 @@
     <MESSAGE value="# implementing the visitor pattern" />
     <MESSAGE value="# implementing the visitor pattern, no recursion" />
     <MESSAGE value="change PCs" />
-    <option name="LAST_COMMIT_MESSAGE" value="change PCs" />
+    <MESSAGE value="unwrapping a decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="unwrapping a decorator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,13 +751,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 5 Files and IO/ch5_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 5 Files and IO/ch5_9.py" />
     <entry file="file://$PROJECT_DIR$/Ch 6 Reading and writing CSV dataa.py" />
     <entry file="file://$PROJECT_DIR$/Ch 5 Files and IO/ch5_5.py">
@@ -1034,8 +1036,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>

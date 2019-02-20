@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_6.py" afterDir="false" />
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="=/">
+      <change afterPath="$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -15,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_24.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_25.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="70" selection-start-column="70" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -122,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/passwd" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_8.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_9.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_1.py" />
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_6.py" />
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py" />
+        <option value="$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py" />
       </list>
     </option>
   </component>
@@ -194,16 +193,6 @@
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 9 Metaprogramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch 10 Modules and Packages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -215,11 +204,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\David\PycharmProjects\Python3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\PycharmProjects\Python3\Common_Questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\PycharmProjects\Python3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,20 +349,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00052" summary="# iterating over the index- value pairs of a sequence&#10;# keeping track of a sequence elements in a sequence">
-      <created>1548700704697</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1548700704697</updated>
-    </task>
-    <task id="LOCAL-00053" summary="# iterating over multiple sequences simultaneously">
-      <created>1548701318072</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1548701318072</updated>
     </task>
     <task id="LOCAL-00054" summary="# iterating on items in separate containers">
       <created>1548701489826</created>
@@ -704,7 +679,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550518811589</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="loading remote modules using import hooks">
+      <created>1550519554558</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1550519554558</updated>
+    </task>
+    <task id="LOCAL-00102" summary="=/">
+      <created>1550521943784</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1550521943784</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -731,8 +720,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#Interacting with a relational database" />
-    <MESSAGE value="# just cause" />
     <MESSAGE value="# a function that accepts any number of arguments" />
     <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
@@ -756,7 +743,9 @@
     <MESSAGE value="# defining classes programmatically" />
     <MESSAGE value="You want to write programs that parse and analyze Python source code." />
     <MESSAGE value="All things being equal, include the&#10;__init__.py files if you’re just starting out with the creation of a new package." />
-    <option name="LAST_COMMIT_MESSAGE" value="All things being equal, include the&#10;__init__.py files if you’re just starting out with the creation of a new package." />
+    <MESSAGE value="loading remote modules using import hooks" />
+    <MESSAGE value="=/" />
+    <option name="LAST_COMMIT_MESSAGE" value="=/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,9 +764,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_14.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_11.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1011,6 +997,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py" />
     <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_24.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1029,16 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/9.4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#44#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,8 +1063,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="70" selection-start-column="70" selection-end-column="70" />
         </state>
       </provider>
     </entry>

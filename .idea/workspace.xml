@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="=/">
-      <change afterPath="$PROJECT_DIR$/Ch 14 Testing/ch14_1.py" afterDir="false" />
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ch 14 Testing/ch14_8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,24 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9.4.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -121,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_9.py" />
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_12.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_13.py" />
@@ -172,6 +170,8 @@
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py" />
         <option value="$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py" />
         <option value="$PROJECT_DIR$/Ch 14 Testing/ch14_1.py" />
+        <option value="$PROJECT_DIR$/Ch 14 Testing/ch14_2.py" />
+        <option value="$PROJECT_DIR$/Ch 14 Testing/ch14_8.py" />
       </list>
     </option>
   </component>
@@ -197,6 +197,11 @@
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
               <item name="Ch 12 Concurrency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch 14 Testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,20 +359,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00054" summary="# iterating on items in separate containers">
-      <created>1548701489826</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1548701489826</updated>
-    </task>
-    <task id="LOCAL-00055" summary="# creating data processing pipelines&#10;# cause you have a huge amount of data that needs to be processed and it can't fit into memory">
-      <created>1548701620552</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1548701620552</updated>
     </task>
     <task id="LOCAL-00056" summary="# flattening a nested sequence">
       <created>1548702825540</created>
@@ -698,7 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550521943784</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="notes">
+      <created>1550851582845</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1550851582845</updated>
+    </task>
+    <task id="LOCAL-00104" summary="patching objects in unit tests">
+      <created>1550851661197</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1550851661197</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,8 +730,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# a function that accepts any number of arguments" />
-    <MESSAGE value="Cleaning up" />
     <MESSAGE value="# creating managed attributes" />
     <MESSAGE value="https://python-forum.io/Thread-Unexpected-expected-type-error-result" />
     <MESSAGE value="# simplifying the initialization of data structures&#10;import math" />
@@ -750,7 +753,9 @@
     <MESSAGE value="All things being equal, include the&#10;__init__.py files if you’re just starting out with the creation of a new package." />
     <MESSAGE value="loading remote modules using import hooks" />
     <MESSAGE value="=/" />
-    <option name="LAST_COMMIT_MESSAGE" value="=/" />
+    <MESSAGE value="notes" />
+    <MESSAGE value="patching objects in unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="patching objects in unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,16 +774,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="7" selection-start-column="22" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1081,6 +1076,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

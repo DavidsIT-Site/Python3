@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch 14 Testing/ch14_8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -360,13 +359,6 @@
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
     </task>
-    <task id="LOCAL-00056" summary="# flattening a nested sequence">
-      <created>1548702825540</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1548702825540</updated>
-    </task>
     <task id="LOCAL-00057" summary="# iterating in sorted order over merged sorted iterables&#10;import heapq">
       <created>1548703119977</created>
       <option name="number" value="00057" />
@@ -703,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550851661197</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="creating custom exceptions">
+      <created>1550853041154</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1550853041154</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -730,7 +729,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# creating managed attributes" />
     <MESSAGE value="https://python-forum.io/Thread-Unexpected-expected-type-error-result" />
     <MESSAGE value="# simplifying the initialization of data structures&#10;import math" />
     <MESSAGE value="# defining an interface or abssstract base class&#10;&#10;    #skipping for now" />
@@ -755,7 +753,8 @@
     <MESSAGE value="=/" />
     <MESSAGE value="notes" />
     <MESSAGE value="patching objects in unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="patching objects in unit tests" />
+    <MESSAGE value="creating custom exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating custom exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

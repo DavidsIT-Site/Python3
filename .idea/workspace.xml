@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="=/">
-      <change afterPath="$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch 14 Testing/ch14_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 8 Classes and Objects/ch8_25.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="70" selection-start-column="70" selection-end-column="70" />
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_8.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_9.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_10.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_11.py" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_6.py" />
         <option value="$PROJECT_DIR$/Ch 10 Modules and Packages/ch10_11.py" />
         <option value="$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py" />
+        <option value="$PROJECT_DIR$/Ch 14 Testing/ch14_1.py" />
       </list>
     </option>
   </component>
@@ -192,6 +192,11 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch 12 Concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -764,9 +769,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_11.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 2 Strings/ch2_5.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1071,7 +1073,14 @@
     <entry file="file://$PROJECT_DIR$/Ch 12 Concurrency/ch12_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="70" selection-start-column="70" selection-end-column="70" />
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 14 Testing/ch14_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>

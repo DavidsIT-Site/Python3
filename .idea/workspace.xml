@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="=)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00 Hello Universe/01.drn" beforeDir="false" afterPath="$PROJECT_DIR$/00 Hello Universe/01.drn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00 Hello Universe/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/00 Hello Universe/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrutB/Python3.py" beforeDir="false" afterPath="$PROJECT_DIR$/StrutB/Python3.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StrutB/Python3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+            <state relative-caret-position="185">
+              <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -125,6 +128,12 @@
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
               <item name="StrutB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="StrutB" type="462c0819:PsiDirectoryNode" />
+              <item name="datatypes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,27 +291,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00059" summary="# iterating in sorted order over merged sorted iterables&#10;import heapq">
-      <created>1548703722599</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1548703722599</updated>
-    </task>
-    <task id="LOCAL-00060" summary="# reading and writing text data">
-      <created>1548705237032</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1548705237032</updated>
-    </task>
-    <task id="LOCAL-00061" summary="# printing to a file">
-      <created>1548706147830</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1548706147830</updated>
     </task>
     <task id="LOCAL-00062" summary="# printing to a file">
       <created>1548706302082</created>
@@ -626,7 +614,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551106881204</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="=)">
+      <created>1551117663319</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1551117663319</updated>
+    </task>
+    <task id="LOCAL-00109" summary="=)">
+      <created>1551117703384</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1551117703384</updated>
+    </task>
+    <task id="LOCAL-00110" summary="=)">
+      <created>1551118422520</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1551118422521</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,14 +647,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.71417195" visible="true" weight="0.3237598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7133758" visible="true" weight="0.3237598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.28582802" side_tool="true" visible="true" weight="0.3237598" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3207547" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2866242" side_tool="true" visible="true" weight="0.3237598" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49920383" weight="0.3202785" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920383" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1019,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StrutB/Python3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+        <state relative-caret-position="185">
+          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
         </state>
       </provider>
     </entry>

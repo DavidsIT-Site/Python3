@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="=)">
+    <list default="true" id="bea9c557-31dd-4d15-b86f-036f6fa83531" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00 Hello Universe/01.drn" beforeDir="false" afterPath="$PROJECT_DIR$/00 Hello Universe/01.drn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00 Hello Universe/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/00 Hello Universe/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrutB/Python3.py" beforeDir="false" afterPath="$PROJECT_DIR$/StrutB/Python3.py" afterDir="false" />
     </list>
     <ignored path="C:\Users\David\PycharmProjects\Python3\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +14,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrutB/0_Imports_and_Syntax.py">
+        <entry file="file://$PROJECT_DIR$/Drakon/python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StrutB/Python3.py">
+        <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            <state relative-caret-position="476">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_15.py" />
         <option value="$PROJECT_DIR$/Ch 4 iterators and generators/ch4_16.py" />
         <option value="$PROJECT_DIR$/Ch 5 Files and IO/ch5_1.py" />
         <option value="$PROJECT_DIR$/Ch 5 Files and IO/ch5_2.py" />
@@ -102,14 +125,14 @@
         <option value="$PROJECT_DIR$/Ch 14 Testing/ch14_14.py" />
         <option value="$PROJECT_DIR$/StrutB/0_Imports_and_Syntax.py" />
         <option value="$PROJECT_DIR$/StrutB/Python3.py" />
+        <option value="$PROJECT_DIR$/Drakon/python lessons/exercise2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
-    <option name="y" value="125" />
     <option name="width" value="1294" />
-    <option name="height" value="1282" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -127,13 +150,13 @@
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="StrutB" type="462c0819:PsiDirectoryNode" />
+              <item name="Drakon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="StrutB" type="462c0819:PsiDirectoryNode" />
-              <item name="datatypes" type="462c0819:PsiDirectoryNode" />
+              <item name="Drakon" type="462c0819:PsiDirectoryNode" />
+              <item name="python lessons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +166,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="pyconsole" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Python3">
-    <configuration name="0_Imports_and_Syntax" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.exercise5">
+    <configuration name="exercise2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StrutB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drakon/python lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StrutB/0_Imports_and_Syntax.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drakon/python lessons/exercise2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StrutB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drakon/python lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StrutB/Python3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drakon/python lessons/exercise3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch14_13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 14 Testing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drakon/python lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 14 Testing/ch14_13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drakon/python lessons/exercise4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch9_18" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercise5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,11 +263,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 9 Metaprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drakon/python lessons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_18.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drakon/python lessons/exercise5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch9_24" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,11 +284,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch 9 Metaprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drakon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_24.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drakon/python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,13 +297,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.python" />
+      <item itemvalue="Python.exercise2" />
+      <item itemvalue="Python.exercise3" />
+      <item itemvalue="Python.exercise4" />
+      <item itemvalue="Python.exercise5" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python3" />
-        <item itemvalue="Python.0_Imports_and_Syntax" />
-        <item itemvalue="Python.ch14_13" />
-        <item itemvalue="Python.ch9_24" />
-        <item itemvalue="Python.ch9_18" />
+        <item itemvalue="Python.exercise5" />
+        <item itemvalue="Python.exercise4" />
+        <item itemvalue="Python.exercise3" />
+        <item itemvalue="Python.python" />
+        <item itemvalue="Python.exercise2" />
       </list>
     </recent_temporary>
   </component>
@@ -291,13 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569019965</updated>
-    </task>
-    <task id="LOCAL-00062" summary="# printing to a file">
-      <created>1548706302082</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1548706302082</updated>
     </task>
     <task id="LOCAL-00063" summary="# printing with a different separator or line ending">
       <created>1548706348384</created>
@@ -635,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551118422521</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="=)">
+      <created>1551121152600</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1551121152600</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="125" width="1294" height="1282" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24442676" />
@@ -647,15 +680,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7133758" visible="true" weight="0.3237598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7125796" visible="true" weight="0.3233909" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2866242" side_tool="true" visible="true" weight="0.3237598" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2874204" side_tool="true" visible="true" weight="0.3233909" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49920383" weight="0.3202785" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920383" weight="0.32967034" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4960191" weight="0.2967033" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -706,48 +739,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 3 Numbers, dates, times/ch3_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 6 Data Encoding and processing/ch6_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipped.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 7 Functions/ch7_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -939,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_24.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1019,17 +1003,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StrutB/0_Imports_and_Syntax.py">
+    <entry file="file://$PROJECT_DIR$/StrutB/0_Imports_and_Syntax.py" />
+    <entry file="file://$PROJECT_DIR$/StrutB/Python3.py" />
+    <entry file="file://$PROJECT_DIR$/Ch 9 Metaprogramming/ch9_18.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="374">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StrutB/Python3.py">
+    <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakon/python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakon/python lessons/exercise5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
